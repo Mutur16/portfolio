@@ -8,7 +8,7 @@ const navAnchors = [
   },
   {
     title: 'About',
-    anchor: '/',
+    anchor: '#about',
   },
   {
     title: 'Portfolio',
@@ -25,8 +25,11 @@ function Header(): ReactNode {
   const handleMenu = () => {
     setOpen((prev) => !prev)
   }
+  const handleLinkClick = () => {
+    setOpen(false)
+  }
   return (
-    <nav className='sticky'>
+    <nav className="fixed top-0 w-full bg-white z-10">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -40,7 +43,7 @@ function Header(): ReactNode {
               {navAnchors.map((anchor, index) => (
                 <a
                   key={index}
-                  className="text-gray-500 transition-all duration-500 hover:text-black px-2 text-lg font-body"
+                  className="text-text-gray transition-all duration-500 hover:text-black px-2 text-lg font-body"
                   href={anchor.anchor}
                 >
                   {anchor.title}
@@ -68,6 +71,7 @@ function Header(): ReactNode {
                 <a
                   className="text-gray-900 hover:text-black hover:bg-white px-3 py-2 font-medium font-body flex justify-end"
                   href={anchor.anchor}
+                  onClick={handleLinkClick}
                 >
                   {anchor.title}
                 </a>
