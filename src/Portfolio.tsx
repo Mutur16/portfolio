@@ -3,6 +3,8 @@ import './main.css'
 import pp from './assets/2.png'
 import Footer from './components/Footer'
 import About from './containers/About'
+import Contact from './containers/Contact'
+import Works from './containers/Works'
 
 function Portfolio() {
   return (
@@ -13,7 +15,7 @@ function Portfolio() {
           <img
             className="xl:w-2/4 sm:w-1/3 w-2/3 rounded-full border-8 border-black mt-20 xl:mt-0 xl:mr-32"
             src={pp}
-            alt=""
+            alt="Illustration du portrait d'Alexandra"
           />
         </div>
         <div className="flex flex-1 flex-col items-center xl:items-start justify-start xl:justify-center gap-5 xl:gap-10">
@@ -28,6 +30,8 @@ function Portfolio() {
         </div>
       </div>
       <About />
+      <Works />
+      <Contact />      
       <Footer />
     </>
   )

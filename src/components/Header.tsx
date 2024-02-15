@@ -16,7 +16,7 @@ const navAnchors = [
   },
   {
     title: 'Contact',
-    anchor: '/',
+    anchor: '#contact',
   },
 ]
 

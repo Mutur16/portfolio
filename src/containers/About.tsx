@@ -8,7 +8,7 @@ function About(): ReactNode {
       className="bg-bg-gray flex flex-col xl:flex-row gap-14 py-11 px-8 align-center font-body"
     >
       <div className="max-w-screen-2xl flex flex-col lg:flex-row gap-10 mx-auto">
-        <div className="lg:w-3/5 pr-10 flex flex-col gap-3">
+        <div className="lg:w-3/5 lg:pr-10 flex flex-col gap-3">
           <h3 className="flex text-sm-body lg:text-body font-bold uppercase text-text-gray gap-4">
             <span className="block mt-3 w-5 h-0.5 lg:mt-3 lg:w-7 bg-text-gray"></span>
             About
