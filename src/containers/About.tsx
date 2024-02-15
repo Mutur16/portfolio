@@ -11,9 +11,9 @@ function About(): ReactNode {
         <div className="lg:w-3/5 lg:pr-10 flex flex-col gap-3">
           <h3 className="flex text-sm-body lg:text-body font-bold uppercase text-text-gray gap-4">
             <span className="block mt-3 w-5 h-0.5 lg:mt-3 lg:w-7 bg-text-gray"></span>
-            About
+            A propos
           </h3>
-          <h4 className="text-sm-h4 lg:text-h4 font-bold">
+          <h4 className="text-sm-h4 lg:text-h4 text-dark-gray font-bold">
             Développeuse Front-End basée en région parisienne
           </h4>
           <p className="text-text-gray text-sm-body lg:text-body">

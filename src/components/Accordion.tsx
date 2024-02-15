@@ -21,11 +21,7 @@ export function DefaultAccordion(): ReactNode {
           Formations
         </AccordionHeader>
         <AccordionBody className="bg-white font-body p-8">
-        <ul className="flex flex-col gap-3 text-sm-body md:text-body">
-            <li className="flex">
-              <span className="w-1/3">2013</span>
-              <span>Bac Pro Esthétique</span>
-            </li>
+          <ul className="flex flex-col gap-3 text-sm-body md:text-body">
             <li className="flex">
               <span className="w-1/3">2022</span>
               <span>Licence LLCE Japonais</span>
@@ -52,6 +48,20 @@ export function DefaultAccordion(): ReactNode {
           Compétences
         </AccordionHeader>
         <AccordionBody className="bg-white font-body p-8">
+          <ul className="flex flex-col gap-3 text-sm-body md:text-body">
+            <li className="flex">
+              <span className="w-2/4">JavaScript</span>
+              <span>CSS</span>
+            </li>
+            <li className="flex">
+              <span className="w-2/4">TypeScript</span>
+              <span>SASS</span>
+            </li>
+            <li className="flex">
+              <span className="w-2/4">React/Redux</span>
+              <span>Tailwind</span>
+            </li>
+          </ul>
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3}>

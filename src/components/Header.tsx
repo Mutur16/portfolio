@@ -7,12 +7,12 @@ const navAnchors = [
     anchor: '/',
   },
   {
-    title: 'About',
+    title: 'A propos',
     anchor: '#about',
   },
   {
     title: 'Portfolio',
-    anchor: '/',
+    anchor: '#portfolio',
   },
   {
     title: 'Contact',
