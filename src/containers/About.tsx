@@ -5,7 +5,7 @@ function About(): ReactNode {
   return (
     <div
       id="about"
-      className="bg-bg-gray flex flex-col xl:flex-row gap-14 py-11 px-8 align-center font-body"
+      className="bg-bg-gray flex flex-col xl:flex-row gap-14 py-11 md:py-20 px-8 align-center font-body"
     >
       <div className="max-w-screen-2xl flex flex-col lg:flex-row gap-10 mx-auto">
         <div className="lg:w-3/5 lg:pr-10 flex flex-col gap-3">

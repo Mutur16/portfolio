@@ -1,10 +1,12 @@
 import Header from './components/Header'
-import './main.css'
-import pp from './assets/2.png'
 import Footer from './components/Footer'
 import About from './containers/About'
 import Contact from './containers/Contact'
-import Works from './containers/Works'
+import Projects from './containers/Projects'
+
+import pp from './assets/2.png'
+
+import './main.css'
 import './animation.css'
 
 function Portfolio() {
@@ -31,7 +33,7 @@ function Portfolio() {
         </div>
       </div>
       <About />
-      <Works />
+      <Projects />
       <Contact />
       <Footer />
     </>

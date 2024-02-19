@@ -6,6 +6,13 @@ import {
   AccordionBody,
 } from '@material-tailwind/react'
 
+import CSS from '../assets/icons/css.svg'
+import Tailwind from '../assets/icons/tailwind-css.svg'
+import SASS from '../assets/icons/sass.svg'
+import JS from '../assets/icons/javascript.svg'
+import ReactNative from '../assets/icons/react-native.svg'
+import TS from '../assets/icons/typescript.svg'
+
 export function DefaultAccordion(): ReactNode {
   const [open, setOpen] = React.useState(1)
 
@@ -34,7 +41,7 @@ export function DefaultAccordion(): ReactNode {
                 className="group transition duration-300 hover:text-black"
               >
                 Intégrateur web, OC
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-primary-gray"></span>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-dark-gray"></span>
               </a>
             </li>
           </ul>
@@ -50,16 +57,16 @@ export function DefaultAccordion(): ReactNode {
         <AccordionBody className="bg-white font-body p-8">
           <ul className="flex flex-col gap-3 text-sm-body md:text-body">
             <li className="flex">
-              <span className="w-2/4">JavaScript</span>
-              <span>CSS</span>
+              <span className="w-2/4 flex items-center gap-2"><img src={JS} className='w-[30px] h-[30px]'/>JavaScript</span>
+              <span className='flex items-center gap-2'><img src={CSS} className='w-[30px] h-[30px]'/>CSS</span>
             </li>
             <li className="flex">
-              <span className="w-2/4">TypeScript</span>
-              <span>SASS</span>
+              <span className="w-2/4 flex items-center gap-2"><img src={TS} className='w-[30px] h-[30px]'/>TypeScript</span>
+              <span className='flex items-center gap-2'><img src={SASS} className='w-[30px] h-[30px]'/>SASS</span>
             </li>
             <li className="flex">
-              <span className="w-2/4">React/Redux</span>
-              <span>Tailwind</span>
+              <span className="w-2/4 flex items-center gap-2"><img src={ReactNative} className='w-[30px] h-[30px]'/>React/Redux</span>
+              <span className='flex items-center gap-2'><img src={Tailwind} className='w-[30px] h-[30px]'/>Tailwind</span>
             </li>
           </ul>
         </AccordionBody>

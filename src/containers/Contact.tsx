@@ -4,7 +4,7 @@ import { IconButton } from '@material-tailwind/react'
 
 function Contact(): ReactNode {
   return (
-    <div id="contact" className="bg-bg-gray py-11 px-8 align-center font-body">
+    <div id="contact" className="bg-bg-gray py-11 md:py-20 px-8 align-center font-body">
       <div className="max-w-screen-2xl flex flex-col lg:flex-row lg:gap-10 mx-auto gap-2">
         <div className="lg:w-2/3 flex flex-col gap-3">
           <h3 className="flex text-sm-body lg:text-body font-bold uppercase text-text-gray gap-4">
