@@ -17,13 +17,10 @@ function About(): ReactNode {
             Développeuse Front-End basée en région parisienne
           </h4>
           <p className="text-text-gray text-sm-body lg:text-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            quis ipsum, fuga ratione dolor nam. Dolores laborum, quae ducimus
-            quia modi voluptate corporis sint aut saepe. Hic reiciendis soluta
-            perferendis! Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Tempora quis ipsum, fuga ratione dolor nam. Dolores laborum,
-            quae ducimus quia modi voluptate corporis sint aut saepe. Hic
-            reiciendis soluta perferendis!
+            Bonjour et bienvenue sur mon portfolio. <hr className='border-none' />
+            Je me présente, Alexandra Marti-Montessinos, développeuse front-end basée en IDF. <hr className='border-none' />
+            J'ai travaillé dans divers domaine tel que l'esthétique et le tourisme. J'ai démarré mes expériences professionnelles au Japon en 2016 et suis rentrée en France en 2020. A cette période j'ai souhaité, tout en passant ma licence de japonais, prendre le temps de déterminer le domaine dans lequel j'aimerais vraiment travaillé. J'ai commencé à apprendre par moi-même les bases du développement web puis j'ai continuer sur une formation OpenClassroom en 2023 pour me conforter dans la voie que j'avais choisi. <hr className='border-none' />
+            Retrouvez sur ce portfolio certains projets sur lesquels j'ai travaillé jusqu'à maintenant.
           </p>
         </div>
         <div className="flex flex-col gap-3 lg:w-2/5 ">
