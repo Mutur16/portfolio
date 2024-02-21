@@ -29,8 +29,23 @@ function Header(): ReactNode {
     setOpen(false)
   }
 
-  function toggleTheme(){
-    document.documentElement.classList.toggle('dark')
+  const theme = localStorage.getItem('theme')
+  function applyTheme() {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark')
+    }
+  }
+
+  applyTheme()
+
+  function darkTheme() {
+    document.documentElement.classList.add('dark')
+    localStorage.setItem('theme', 'dark')
+  }
+
+  function lightTheme() {
+    document.documentElement.classList.remove('dark')
+    localStorage.removeItem('dark')
   }
   return (
     <nav className="fixed top-0 w-full bg-white dark:bg-tertiary z-10 transition-all duration-500">
@@ -40,8 +55,15 @@ function Header(): ReactNode {
             <span className="text-black dark:text-primary font-body text-xl font-bold uppercase transition-all duration-500">
               amm
             </span>
-            <button onClick={toggleTheme} className='dark:hidden'><FaMoon /></button>
-            <button onClick={toggleTheme} className='hidden dark:text-link dark:hover:text-white dark:flex'><FaSun /></button>
+            <button onClick={darkTheme} className="dark:hidden">
+              <FaMoon />
+            </button>
+            <button
+              onClick={lightTheme}
+              className="hidden dark:text-link dark:hover:text-white dark:flex"
+            >
+              <FaSun />
+            </button>
           </div>
           {/* navlinks */}
           <div className="hidden md:block">

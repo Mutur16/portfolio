@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, CSSProperties } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
@@ -26,11 +26,13 @@ const ActiveSlider = () => {
   return (
     <div className="flex items-center justify-center flex-col">
       <Swiper
-        style={{
-          "--swiper-pagination-color": "#5D3A73",
-          "--swiper-pagination-bullet-inactive-color": "#83738D",
-          "--swiper-pagination-bullet-size": "14px",
-        }}
+        style={
+          {
+            '--swiper-pagination-color': '#5D3A73',
+            '--swiper-pagination-bullet-inactive-color': '#83738D',
+            '--swiper-pagination-bullet-size': '14px',
+          } as CSSProperties
+        }
         breakpoints={{
           340: {
             slidesPerView: 1,

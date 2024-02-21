@@ -13,7 +13,6 @@ export default function DialogProject({
   handleOpen,
   data,
 }: DialogProjectType) {
-  console.log(data)
 
   return (
     <Dialog open={open} handler={handleOpen} className="p-5 dark:bg-tertiary">
