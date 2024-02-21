@@ -20,14 +20,14 @@ export function DefaultAccordion(): ReactNode {
 
   return (
     <>
-      <Accordion open={open === 1}>
+      <Accordion className='transition-all duration-500' open={open === 1}>
         <AccordionHeader
-          className=" bg-primary-gray pl-8 py-6 font-body uppercase border-none"
+          className=" bg-accordion-light pl-8 py-6 font-body uppercase border-none dark:bg-tertiary dark:text-link dark:hover:text-white"
           onClick={() => handleOpen(1)}
         >
           Formations
         </AccordionHeader>
-        <AccordionBody className="bg-white font-body p-8">
+        <AccordionBody className="bg-white dark:bg-accordion dark:text-primary font-body p-8 transition-all duration-500">
           <ul className="flex flex-col gap-3 text-sm-body md:text-body">
             <li className="flex">
               <span className="w-1/3">2022</span>
@@ -38,10 +38,10 @@ export function DefaultAccordion(): ReactNode {
               <a
                 href="https://openclassrooms.com/fr/paths/900-integrateur-web#projects"
                 target="_blank"
-                className="group transition duration-300 hover:text-black"
+                className="group hover:text-black dark:hover:text-white"
               >
                 Intégrateur web, OC
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-dark-gray"></span>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-tertiary-light dark:bg-white"></span>
               </a>
             </li>
           </ul>
@@ -49,12 +49,12 @@ export function DefaultAccordion(): ReactNode {
       </Accordion>
       <Accordion open={open === 2}>
         <AccordionHeader
-          className=" bg-primary-gray pl-8 py-6 font-body uppercase border-none"
+          className=" bg-accordion-light pl-8 py-6 font-body uppercase border-none dark:bg-tertiary dark:text-link dark:hover:text-white"
           onClick={() => handleOpen(2)}
         >
           Compétences
         </AccordionHeader>
-        <AccordionBody className="bg-white font-body p-8">
+        <AccordionBody className="bg-white dark:bg-accordion dark:text-primary font-body p-8 transition-all duration-500">
           <ul className="flex flex-col gap-3 text-sm-body md:text-body">
             <li className="flex">
               <span className="w-2/4 flex items-center gap-2"><img src={JS} className='w-[30px] h-[30px]'/>JavaScript</span>
@@ -65,7 +65,7 @@ export function DefaultAccordion(): ReactNode {
               <span className='flex items-center gap-2'><img src={SASS} className='w-[30px] h-[30px]'/>SASS</span>
             </li>
             <li className="flex">
-              <span className="w-2/4 flex items-center gap-2"><img src={ReactNative} className='w-[30px] h-[30px]'/>React/Redux</span>
+              <span className="w-2/4 flex items-center gap-2"><img src={ReactNative} className='w-[30px] h-[30px]'/>React</span>
               <span className='flex items-center gap-2'><img src={Tailwind} className='w-[30px] h-[30px]'/>Tailwind</span>
             </li>
           </ul>
@@ -73,12 +73,12 @@ export function DefaultAccordion(): ReactNode {
       </Accordion>
       <Accordion open={open === 3}>
         <AccordionHeader
-          className=" bg-primary-gray pl-8 py-6 font-body uppercase border-none"
+          className=" bg-accordion-light pl-8 py-6 font-body uppercase border-none dark:bg-tertiary dark:text-link dark:hover:text-white"
           onClick={() => handleOpen(3)}
         >
           Langues
         </AccordionHeader>
-        <AccordionBody className="bg-white font-body p-8">
+        <AccordionBody className="bg-white dark:bg-accordion dark:text-primary font-body p-8 transition-all duration-500">
           <ul className="flex flex-col gap-3 text-sm-body md:text-body">
             <li className="flex">
               <span className="w-2/4">Français</span>

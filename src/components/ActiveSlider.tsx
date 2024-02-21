@@ -26,6 +26,11 @@ const ActiveSlider = () => {
   return (
     <div className="flex items-center justify-center flex-col">
       <Swiper
+        style={{
+          "--swiper-pagination-color": "#5D3A73",
+          "--swiper-pagination-bullet-inactive-color": "#83738D",
+          "--swiper-pagination-bullet-size": "14px",
+        }}
         breakpoints={{
           340: {
             slidesPerView: 1,
@@ -45,7 +50,7 @@ const ActiveSlider = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="max-w-[70%] md:max-w-[100%]"
+        className="max-w-[80%] md:max-w-[100%]"
       >
         {projects.map((item) => (
           <SwiperSlide key={item.title} onClick={() => updateCurrentItem(item)}>
@@ -64,7 +69,7 @@ const ActiveSlider = () => {
                 <h1 className="text-xl lg:text-2xl">{item.title} </h1>
                 <p className="lg:text-[18px]">{item.content} </p>
               </div>
-              <RxArrowTopRight className="absolute bottom-5 left-5 w-[20px] h-[20px] md:w-[35px] md:h-[35px] text-white group-hover:text-blue-500 group-hover:rotate-45 duration-100" />
+              <RxArrowTopRight className="absolute bottom-5 left-5 w-[20px] h-[20px] md:w-[35px] md:h-[35px] text-white group-hover:rotate-45 duration-100" />
             </div>
           </SwiperSlide>
         ))}

@@ -9,10 +9,16 @@ export default withMT({
         height: 'height',
       },
       colors: {
-        'primary-gray': '#eaeaea',
-        'text-gray': '#757575',
-        'bg-gray': '#f5f5f5',
-        'dark-gray': '#333',
+        'primary-light': '#757575',
+        'secondary-light': '#f5f5f5',
+        'tertiary-light': '#333',
+        'accordion-light': '#eaeaea',
+        'primary': '#F5F5F5', //text
+        'secondary': '#303030', //bg clair
+        'tertiary': '#202020', //bg foncé
+        'accordion': '#404040',
+        'purple': '#5D3A73',
+        'link': '#E0E0E0'
       },
       fontFamily: {
         name: ['Archivo'],
