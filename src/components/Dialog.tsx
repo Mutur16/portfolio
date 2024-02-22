@@ -24,7 +24,7 @@ export default function DialogProject({
           </IconButton>
         </a>
       </DialogHeader>
-      <DialogBody className="flex flex-col font-body text-primary-light dark:text-primary">
+      <DialogBody className="flex flex-col font-body text-primary-light dark:text-primary h-[20rem] md:h-auto overflow-scroll md:overflow-hidden">
         <p>{data?.subtitle}</p>
         <p>{data?.content}</p>
         <img src={data?.img} />
