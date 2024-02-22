@@ -17,7 +17,6 @@ export default withMT({
         'secondary': '#303030', //bg clair
         'tertiary': '#202020', //bg foncé
         'accordion': '#404040',
-        'purple': '#5D3A73',
         'link': '#E0E0E0'
       },
       fontFamily: {

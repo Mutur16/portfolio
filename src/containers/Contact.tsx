@@ -32,7 +32,7 @@ function Contact(): ReactNode {
               Mes réseaux :
             </p>
             <a href="https://github.com/Mutur16" target="_blank">
-              <IconButton className="rounded-full bg-purple">
+              <IconButton className="rounded-full bg-tertiary">
                 <i className="fab fa-github text-lg" />
               </IconButton>
             </a>
@@ -40,7 +40,7 @@ function Contact(): ReactNode {
               href="https://www.linkedin.com/in/alexandra-marti-montessinos-469a9a19b/"
               target="_blank"
             >
-              <IconButton className="rounded-full bg-purple">
+              <IconButton className="rounded-full bg-tertiary">
                 <i className="fab fa-linkedin text-lg" />
               </IconButton>
             </a>

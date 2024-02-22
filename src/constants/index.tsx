@@ -9,7 +9,7 @@ import Debug from '../assets/icons/debug.png'
 import SEO from '../assets/icons/seo.png'
 import Accessibility from '../assets/icons/accessibility.png'
 
-import Portfolio from '../assets/2.png'
+import Portfolio from '../assets/jour.png'
 import Booki from '../assets/aw-creative.jpg'
 import Events from '../assets/headway-F2KRf_QfCqw-unsplash.png'
 import ArgentBank from '../assets/bank-tree.webp'
@@ -140,7 +140,7 @@ export const projects: Array<ProjectType> = [
       subtitle:
         "724 Events est une agence d'événementiel possédant un site vitrine.",
       content:
-        "Le premier développeur à avoir travaillé sur le projet a du abandonner le projet de ce fait quelques bugs étaient présent. Mon rôle a été de corrigé les bugs majeurs. J'ai également corrigé des bugs mineurs qui rendaient l'expérience utilisateur moins agréables. J'ai pu mettre en place des tests unitaires et en coriger certains sur ce projet.",
+        "Le premier développeur à avoir travaillé sur le projet a dû abandonner le projet, de ce fait quelques bugs étaient présents. Mon rôle a été de corriger les bugs majeurs. J'ai également corrigé des bugs mineurs qui rendaient l'expérience utilisateur moins agréable. J'ai pu mettre en place des tests unitaires et en corriger certains sur ce projet.",
       img: EventsDialog,
     },
   },
@@ -156,7 +156,7 @@ export const projects: Array<ProjectType> = [
       subtitle:
         "Sophie Bluel est une architecte d'intérieur qui partage son travail sur son site portfolio.",
       content:
-        "Mon rôle a été d'optimiser le site et de le rendre plus accessible. Pour l'optimisation j'ai notamment modifié les images et minifié le code. Pour l'accessibilité j'ai entre autre fait des modifications sur la sémantique HTML, le contraste des couleurs, ajouté l'attribut alt. J'ai pu m'aider des outils comme Wave ou Lighthouse.",
+        "Mon rôle a été d'optimiser le site et de le rendre plus accessible. Pour l'optimisation j'ai notamment modifié les images et minifié le code. Pour l'accessibilité j'ai entre autre fait des modifications sur la sémantique HTML, le contraste des couleurs, les attributs. J'ai pu m'aider des outils comme Wave ou Lighthouse.",
       img: NinaCarducciDialog,
     },
   },

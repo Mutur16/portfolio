@@ -18,8 +18,11 @@ function About(): ReactNode {
           </h4>
           <span className="text-primary-light dark:text-primary text-sm-body lg:text-body">
             Bonjour et bienvenue sur mon portfolio. <hr className='border-none' />
-            Je me présente, Alexandra Marti-Montessinos, développeuse front-end basée en IDF. <hr className='border-none' />
-            J'ai travaillé dans divers domaine tel que l'esthétique et le tourisme. J'ai démarré mes expériences professionnelles au Japon en 2016 et suis rentrée en France en 2020. A cette période j'ai souhaité, tout en passant ma licence de japonais, prendre le temps de déterminer le domaine dans lequel j'aimerais vraiment travaillée. J'ai commencé à apprendre par moi-même les bases du développement web puis j'ai continuer sur une formation OpenClassroom en 2023 pour me conforter dans la voie que j'avais choisi. <hr className='border-none' />
+            Je me présente, Alexandra Marti-Montessinos, développeuse front-end basée en région parisienne. <hr className='border-none' />
+            J'ai travaillé dans divers domaines tels que l'esthétique et le tourisme. J'ai démarré mes expériences professionnelles au Japon en 2016 et suis rentrée en France en 2020. 
+            A cette période j'ai souhaité tout en passant ma licence de japonais, prendre le temps de déterminer le domaine dans lequel j'aimerais vraiment travailler. 
+            J'ai commencé à apprendre par moi-même les bases du développement web puis j'ai continué sur une formation OpenClassroom en 2023 pour me conforter dans la voie que j'avais choisi.
+            <hr className='border-none' />
             Retrouvez sur ce portfolio certains projets sur lesquels j'ai travaillé jusqu'à maintenant.
           </span>
         </div>

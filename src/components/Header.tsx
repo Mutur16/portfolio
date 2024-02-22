@@ -20,7 +20,7 @@ const navAnchors = [
   },
 ]
 
-function Header(): ReactNode {
+function Header({ setTheme }: HeaderProps): ReactNode {
   const [open, setOpen] = useState(false)
   const handleMenu = () => {
     setOpen((prev) => !prev)
@@ -29,24 +29,18 @@ function Header(): ReactNode {
     setOpen(false)
   }
 
-  const theme = localStorage.getItem('theme')
-  function applyTheme() {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark')
-    }
-  }
-
-  applyTheme()
-
   function darkTheme() {
     document.documentElement.classList.add('dark')
     localStorage.setItem('theme', 'dark')
+    setTheme('dark')
   }
 
   function lightTheme() {
     document.documentElement.classList.remove('dark')
-    localStorage.removeItem('dark')
+    localStorage.setItem('theme', 'light')
+    setTheme('light')
   }
+
   return (
     <nav className="fixed top-0 w-full bg-white dark:bg-tertiary z-10 transition-all duration-500">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
@@ -113,3 +107,11 @@ function Header(): ReactNode {
 }
 
 export default Header
+
+type HeaderProps = {
+  setTheme: HeaderSetTheme
+}
+
+type HeaderSetTheme = {
+  (theme: 'dark' | 'light'): void
+}
