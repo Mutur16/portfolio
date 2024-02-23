@@ -1,26 +1,29 @@
 import { ReactNode, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { FaBars, FaMoon, FaSun, FaTimes } from 'react-icons/fa'
+import LanguageSelector from '../components/LanguageSelector'
 
 const navAnchors = [
   {
-    title: 'Home',
+    title: 'header.navbar.home',
     anchor: '/',
   },
   {
-    title: 'A propos',
+    title: 'header.navbar.about',
     anchor: '#about',
   },
   {
-    title: 'Portfolio',
+    title: 'header.navbar.portfolio',
     anchor: '#portfolio',
   },
   {
-    title: 'Contact',
+    title: 'header.navbar.contact',
     anchor: '#contact',
   },
 ]
 
 function Header({ setTheme }: HeaderProps): ReactNode {
+  const { t } = useTranslation()
   const [open, setOpen] = useState(false)
   const handleMenu = () => {
     setOpen((prev) => !prev)
@@ -45,19 +48,22 @@ function Header({ setTheme }: HeaderProps): ReactNode {
     <nav className="fixed top-0 w-full bg-white dark:bg-tertiary z-10 transition-all duration-500">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-5">
-            <span className="text-black dark:text-primary font-body text-xl font-bold uppercase transition-all duration-500">
+          <div className="flex items-center gap-3">
+            <span className="text-black dark:text-primary font-body text-xl md:text-2xl font-bold uppercase transition-all duration-500">
               amm
             </span>
-            <button onClick={darkTheme} className="dark:hidden">
-              <FaMoon />
-            </button>
-            <button
-              onClick={lightTheme}
-              className="hidden dark:text-link dark:hover:text-white dark:flex"
-            >
-              <FaSun />
-            </button>
+            <div className="flex md:ml-4">
+              <button onClick={darkTheme} className="dark:hidden">
+                <FaMoon />
+              </button>
+              <button
+                onClick={lightTheme}
+                className="hidden dark:text-link dark:hover:text-white dark:flex"
+              >
+                <FaSun />
+              </button>
+            </div>
+            <LanguageSelector />
           </div>
           {/* navlinks */}
           <div className="hidden md:block">
@@ -68,7 +74,7 @@ function Header({ setTheme }: HeaderProps): ReactNode {
                   className="text-primary-light dark:text-link transition-all duration-300 hover:text-black dark:hover:text-white px-2 text-lg font-body"
                   href={anchor.anchor}
                 >
-                  {anchor.title}
+                  {t(anchor.title)}
                 </a>
               ))}
             </div>

@@ -28,135 +28,89 @@ import OhmyfoodDialog from '../assets/ohmyfood_dialog.png'
 import NinaCarducciDialog from '../assets/ninacarducci_dialog.png'
 
 export const emptyDialog: ProjectDialogType = {
-  title: '',
+  name: '',
   github: '',
-  subtitle: '',
-  content: '',
   img: '',
 }
 
 export const projects: Array<ProjectType> = [
   {
     icons: [React, TypeScript, Tailwind],
-    title: 'Portfolio',
-    content:
-      'Création de mon site Portfolio avec React, TypeScript et Tailwind CSS.',
+    name: 'portfolio',
     backgroundImage: Portfolio,
     dialog: {
-      title: 'Portfolio',
+      name: "portfolio.dialog",
       github: 'https://github.com/Mutur16/portfolio',
-      subtitle:
-        'Ce site permet de me présenter et de répertorier une partie de mon travail.',
-      content:
-        "Mon portfolio est responsive et a été développé en React. Afin de continuer à m'exercer à TypeScript je l'ai utilisé ici. J'ai également décidé de me familiariser avec Tailwind CSS en l'utilisant pour la première fois dans ce projet.",
       img: PortfolioDialog,
     },
   },
   {
     icons: [React, TypeScript, SASS],
-    title: 'ArgentBank',
-    content:
-      "Implémentation du front-end avec React et rédaction de routes à créer pour l'API.",
+    name: 'argentbank',
     backgroundImage: ArgentBank,
     dialog: {
-      title: 'ArgentBank [Projet OpenClassroom]',
+      name: "argentbank.dialog",
       github: 'https://github.com/Mutur16/oc-project11',
-      subtitle: 'Argent Bank est une nouvelle banque en ligne.',
-      content:
-        "Je me suis occupée de la mise en place du tableau de bord des utilisateurs de la banque avec React et Redux. J'ai également utilisé TypeScript pour une meilleure documentation du code. J'ai aussi eu l'occasion d'écrire de la documentaion OpenAPI et de déterminer de nouveaux endpoints.",
       img: ArgentBankDialog,
     },
   },
   {
     icons: [React, SASS],
-    title: 'Kasa',
-    content:
-      'Refonte totale du site Kasa pour passer à une stack React côté front-end.',
+    name: 'kasa',
     backgroundImage: Kasa,
     dialog: {
-      title: 'Kasa [Projet OpenClassroom]',
+      name: "kasa.dialog",
       github: 'https://github.com/Mutur16/oc-project8',
-      subtitle:
-        "Kasa est une platforme web qui permet la location d'appartements entre particuliers.",
-      content:
-        "Sur ce projet j'ai pu m'initier à React et aux composants réutilasables. Je me suis également assurée que le site était responsive et que l'intégration respectée bien la maquette.",
       img: KasaDialog,
     },
   },
   {
     icons: [JS, CSS],
-    title: 'Portfolio de Sophie Bluel',
-    content: "Création d'une page web dynamique en JavaScript.",
+    name: 'sophiebluel',
     backgroundImage: SophieBluel,
     dialog: {
-      title: 'Portfolio de Sophie Bluel [Projet OpenClassroom]',
+      name: "sophiebluel.dialog",
       github: 'https://github.com/Mutur16/oc-project6',
-      subtitle:
-        "Sophie Bluel est une architecte d'intérieur qui partage son travail sur son site portfolio.",
-      content:
-        "J'ai réalisé l'intégration de la maquette avec HTML et CSS. Afin que la cliente puisse mettre à jour elle-même ses travaux j'ai utilisé JavaScript.",
       img: SophieBluelDialog,
     },
   },
   {
     icons: [HTML, SASS],
-    title: 'Ohmyfood',
-    content:
-      "Amélioration de l'interface du site Ohmyfood avec des animations.",
+    name: 'ohmyfood',
     backgroundImage: Ohmyfood,
     dialog: {
-      title: 'Ohmyfood [Projet OpenClassroom]',
+      name: "ohmyfood.dialog",
       github: 'https://github.com/Mutur16/oc-project4',
-      subtitle:
-        'Ohmyfood est un site qui répertorie les menus de restaurants gastronomiques et qui permettra par la suite la réservation de son menu. ',
-      content:
-        "J'ai réalisé l'intégration de la maquette ainsi que les animations qui étaient souhaitées avec SASS uniquement. Ce site est responsive et a été développé en mobile first.",
       img: OhmyfoodDialog,
     },
   },
   {
     icons: [HTML, CSS],
-    title: 'Booki',
-    content: "Intégration statique d'une maquette en HTML et CSS.",
+    name: 'booki',
     backgroundImage: Booki,
     dialog: {
-      title: 'Booki [Projet OpenClassroom]',
+      name: "booki.dialog",
       github: 'https://github.com/Mutur16/oc-projet3',
-      subtitle:
-        'Booki est une agence de voyage et son site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.',
-      content:
-        "Je me suis occupée de faire l'intégration en HTML et CSS de la maquette communiquée. Le site Booki est responsive.",
       img: BookiDialog,
     },
   },
   {
     icons: [Debug],
-    title: '724 Events',
-    content: 'Déboggage du site 724 Events et rédaction de tests unitaires.',
+    name: 'events',
     backgroundImage: Events,
     dialog: {
-      title: '724 Events [Projet OpenClassroom]',
+      name: "events.dialog",
       github: 'https://github.com/Mutur16/oc-project10',
-      subtitle:
-        "724 Events est une agence d'événementiel possédant un site vitrine.",
-      content:
-        "Le premier développeur à avoir travaillé sur le projet a dû abandonner le projet, de ce fait quelques bugs étaient présents. Mon rôle a été de corriger les bugs majeurs. J'ai également corrigé des bugs mineurs qui rendaient l'expérience utilisateur moins agréable. J'ai pu mettre en place des tests unitaires et en corriger certains sur ce projet.",
       img: EventsDialog,
     },
   },
   {
     icons: [SEO, Accessibility],
-    title: 'Nina Carducci',
-    content:
-      "Amélioration du score de l'audit Lighthouse et de l'accessibilité.",
+    name: 'ninacarducci',
     backgroundImage: NinaCarducci,
     dialog: {
-      title: 'Portfolio de Nina Carducci [Projet OpenClassroom]',
+      name: "ninacarducci.dialog",
       github: 'https://github.com/Mutur16/oc-project9',
-      subtitle:
-        "Sophie Bluel est une architecte d'intérieur qui partage son travail sur son site portfolio.",
-      content:
-        "Mon rôle a été d'optimiser le site et de le rendre plus accessible. Pour l'optimisation j'ai notamment modifié les images et minifié le code. Pour l'accessibilité j'ai entre autre fait des modifications sur la sémantique HTML, le contraste des couleurs, les attributs. J'ai pu m'aider des outils comme Wave ou Lighthouse.",
       img: NinaCarducciDialog,
     },
   },
@@ -164,16 +118,13 @@ export const projects: Array<ProjectType> = [
 
 export type ProjectType = {
   icons: Array<string>
-  title: string
-  content: string
+  name: string
   backgroundImage: string
   dialog?: ProjectDialogType
 }
 
 export type ProjectDialogType = {
-  title: string
+  name: string
   github: string
-  subtitle: string
-  content: string
   img: string
 }

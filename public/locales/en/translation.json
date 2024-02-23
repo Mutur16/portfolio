@@ -1,0 +1,126 @@
+{
+  "developer": "Front-End developer",
+  "header": {
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Front-End developer based in Paris, France",
+    "content": {
+      "welcome": "Welcome to my portfolio.",
+      "introduction": "I am Alexandra Marti-Montessinos, a front-end developer currently living in the Paris metropolitan region.",
+      "background": "I have worked in various fields such as aesthetics and tourism. I started my professional experiences in Japan in 2016 and returned to France in 2020. From 2020, while pursuing my Japanese degree, I took time to determine the field in which I would truly like to work. I began teaching myself the basics of web development and then continued with an web development course in 2023 and graduated in 2024.",
+      "portfolio": "On this portfolio you can find some projects on which I have worked up to now."
+    }
+  },
+  "accordion": {
+    "education": {
+      "header": "Education",
+      "body": {
+        "licence": "Bachelor of Japanese",
+        "oc": "Web integrator, OC"
+      }
+    },
+    "skills": {
+      "header": "Skills"
+    },
+    "languages": {
+      "header": "Languages",
+      "body": {
+        "french": "French",
+        "french.level": "Native language",
+        "english": "English",
+        "english.level": "Advanced",
+        "japanese": "Japanese",
+        "japanese.level": "Intermediate"
+      }
+    }
+  },
+  "project": {
+    "portfolio": {
+      "title": "Portfolio",
+      "content": "Creation of my Portfolio website using React, TypeScript, and Tailwind CSS.",
+      "dialog": {
+        "title": "Portfolio",
+        "subtitle": "This site allows me to present myself and showcase some of my work.",
+        "content": "My portfolio is responsive and was developed in React. To continue practicing TypeScript, I used it here. I also decided to become familiar with Tailwind CSS by using it for the first time in this project."
+      }
+    },
+    "argentbank": {
+      "title": "ArgentBank",
+      "content": "Front-end implementation with React and drafting of routes to be created for the API.",
+      "dialog": {
+        "title": "ArgentBank [OpenClassrooms Project]",
+        "subtitle": "Argent Bank is a new online bank.",
+        "content": "I handled the implementation of the bank's user dashboard using React and Redux. I also used TypeScript for better code documentation. I also had the opportunity to write OpenAPI documentation and determine new endpoints."
+      }
+    },
+    "kasa": {
+      "title": "Kasa",
+      "content": "Complete redesign of the Kasa website to transition to a React frontend stack.",
+      "dialog": {
+        "title": "Kasa [OpenClassrooms Project]",
+        "subtitle": "Kasa is a web platform for renting apartments between individuals.",
+        "content": "On this project, I was able to get started with React and reusable components. I also ensured that the site was responsive and that the integration followed the design mockup."
+      }
+    },
+    "sophiebluel": {
+      "title": "Sophie Bluel's Portfolio",
+      "content": "Creation of a dynamic web page in JavaScript.",
+      "dialog": {
+        "title": "Sophie Bluel's Portfolio [OpenClassrooms Project]",
+        "subtitle": "Sophie Bluel is an interior designer who showcases her work on her portfolio site.",
+        "content": "I completed the mockup integration with HTML and CSS. To allow the client to update her work herself, I used JavaScript."
+      }
+    },
+    "ohmyfood": {
+      "title": "Ohmyfood",
+      "content": "Improvement of the Ohmyfood website interface with animations.",
+      "dialog": {
+        "title": "Ohmyfood [OpenClassrooms Project]",
+        "subtitle": "Ohmyfood is a site that lists menus from gourmet restaurants and will later allow menu reservation.",
+        "content": "I completed the mockup integration as well as the desired animations using only SASS. This site is responsive and was developed with a mobile-first approach."
+      }
+    },
+    "booki": {
+      "title": "Booki",
+      "content": "Static integration of a mockup in HTML and CSS.",
+      "dialog": {
+        "title": "Booki [OpenClassrooms Project]",
+        "subtitle": "Booki is a travel agency and its site allows users to find accommodations and activities in the city of their choice.",
+        "content": "I handled the HTML and CSS integration of the provided mockup. The Booki site is responsive."
+      }
+    },
+    "events": {
+      "title": "724 Events",
+      "content": "Debugging of the 724 Events site and writing of unit tests.",
+      "dialog": {
+        "title": "724 Events [OpenClassrooms Project]",
+        "subtitle": "724 Events is an event agency with a showcase site.",
+        "content": "The first developer to work on the project had to abandon it, so there were some bugs present. My role was to fix major bugs. I also fixed minor bugs that made the user experience less enjoyable. I was able to set up unit tests and fix some on this project."
+      }
+    },
+    "ninacarducci": {
+      "title": "Nina Carducci's Portfolio",
+      "content": "Improvement of the Lighthouse audit score and accessibility.",
+      "dialog": {
+        "title": "Nina Carducci's Portfolio [OpenClassrooms Project]",
+        "subtitle": "Nina Carducci is a photographer who showcases her work on her portfolio site.",
+        "content": "My role was to optimize the site and make it more accessible. For optimization, I made changes to images and minified the code. For accessibility, I made modifications to HTML semantics, color contrast, and attributes, among others. I was able to use tools like Wave or Lighthouse."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "content": {
+      "mail": "Send me a message at",
+      "links": "My networks :"
+    }
+  }
+}

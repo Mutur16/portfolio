@@ -1,0 +1,126 @@
+{
+  "developer": "フロントエンド開発者",
+  "header": {
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "パリ在住のフロントエンド開発者",
+    "content": {
+      "welcome": "ポートフォリオへのご訪問、誠にありがとうございます。",
+      "introduction": "パリ在住のフロントエンド開発者、アレクサンドラ・マルティ＝モンテシノスと申します。",
+      "background": "美容や観光など、様々な分野での経験を積んでまいりました。2016年に日本での仕事を開始し、2020年にフランスに帰国いたしました。その際、日本語の学位を取得しながら、自らが真に志す仕事を決定するための時間を取ることを考えました。ウェブ開発の基礎を独学で学び、2024年にウェブデベロッパーコースを修了いたしました。",
+      "portfolio": "これまでに関わってまいりましたプロジェクトの一部を、こちらのポートフォリオにてご紹介させていただきます。"
+    }
+  },
+  "accordion": {
+    "education": {
+      "header": "学歴",
+      "body": {
+        "licence": "日本文学・文化・言語専攻",
+        "oc": "ウェブ・インテグレーター, OC"
+      }
+    },
+    "skills": {
+      "header": "スキル"
+    },
+    "languages": {
+      "header": "言語",
+      "body": {
+        "french": "フランス語",
+        "french.level": "母国語",
+        "english": "英語",
+        "english.level": "上級レベル",
+        "japanese": "日本語",
+        "japanese.level": "中級レベル"
+      }
+    }
+  },
+  "project": {
+    "portfolio": {
+      "title": "Portfolio",
+      "content": "React、TypeScript、およびTailwind CSSを使用した私のポートフォリオウェブサイトの作成。",
+      "dialog": {
+        "title": "Portfolio",
+        "subtitle": "このサイトでは、自己紹介と私の一部の作品を紹介することができます。",
+        "content": "私のポートフォリオはレスポンシブ対応しており、Reactで開発されました。 TypeScriptの練習を続けるため、ここで使用しました。また、このプロジェクトでTailwind CSSを初めて使用して、それに慣れることにしました。"
+      }
+    },
+    "argentbank": {
+      "title": "ArgentBank",
+      "content": "Reactを使用したフロントエンドの実装と、APIの作成のためのルートの起草。",
+      "dialog": {
+        "title": "ArgentBank [OpenClassroomsプロジェクト]",
+        "subtitle": "アルジャンバンクは新しいオンラインバンクです。",
+        "content": "私は、ReactとReduxを使用して銀行のユーザーダッシュボードの実装を担当しました。コードの文書化のためにTypeScriptも使用しました。 OpenAPIのドキュメントの作成や新しいエンドポイントの決定の機会もありました。"
+      }
+    },
+    "kasa": {
+      "title": "Kasa",
+      "content": "Kasaのウェブサイトの完全なリデザイン、Reactフロントエンドスタックへの移行。",
+      "dialog": {
+        "title": "Kasa [OpenClassroomsプロジェクト]",
+        "subtitle": "カサは個人間でアパートを賃貸するためのWebプラットフォームです。",
+        "content": "このプロジェクトでは、Reactと再利用可能なコンポーネントを使用することができました。また、サイトがレスポンシブであり、統合がデザインのモックアップに従っていることを確認しました。"
+      }
+    },
+    "sophiebluel": {
+      "title": "Sophie Bluelのポートフォリオ",
+      "content": "JavaScriptを使用した動的なWebページの作成。",
+      "dialog": {
+        "title": "Sophie Bluelのポートフォリオ [OpenClassroomsプロジェクト]",
+        "subtitle": "Sophie Bluelは、彼女のポートフォリオサイトで彼女の作品を紹介しているインテリアデザイナーです。",
+        "content": "私は、HTMLとCSSを使用してモックアップの統合を完了しました。クライアントが自分の作品を更新できるようにするために、JavaScriptを使用しました。"
+      }
+    },
+    "ohmyfood": {
+      "title": "Ohmyfood",
+      "content": "アニメーションを使用してOhmyfoodのウェブサイトインターフェースを改善。",
+      "dialog": {
+        "title": "Ohmyfood [OpenClassroomsプロジェクト]",
+        "subtitle": "Ohmyfoodは、高級レストランのメニューをリストアップし、後でメニューの予約を可能にするサイトです。",
+        "content": "私は、SASSのみを使用してモックアップの統合と望ましいアニメーションを完成させました。このサイトはレスポンシブであり、モバイルファーストのアプローチで開発されました。"
+      }
+    },
+    "booki": {
+      "title": "Booki",
+      "content": "HTMLとCSSでのモックアップの静的統合。",
+      "dialog": {
+        "title": "Booki [OpenClassroomsプロジェクト]",
+        "subtitle": "Bookiは旅行代理店で、そのサイトではユーザーが選択した都市で宿泊施設やアクティビティを見つけることができます。",
+        "content": "提供されたモックアップのHTMLとCSSの統合を担当しました。Bookiサイトはレスポンシブです。"
+      }
+    },
+    "events": {
+      "title": "724 Events",
+      "content": "724 Eventsサイトのデバッグとユニットテストの作成。",
+      "dialog": {
+        "title": "724 Events [OpenClassroomsプロジェクト]",
+        "subtitle": "724 Eventsは、ショーケースサイトを持つイベントエージェンシーです。",
+        "content": "最初にこのプロジェクトで作業した開発者はプロジェクトを放棄する必要があったため、いくつかのバグが存在しました。私の役割は主要なバグを修正することでした。ユーザーエクスペリエンスをより楽しいものにするためのマイナーバグも修正しました。このプロジェクトでは、ユニットテストを設定していくつか修正しました。"
+      }
+    },
+    "ninacarducci": {
+      "title": "Nina Carducciのポートフォリオ",
+      "content": "ライトハウス監査スコアとアクセシビリティの改善。",
+      "dialog": {
+        "title": "Nina Carducciのポートフォリオ [OpenClassroomsプロジェクト]",
+        "subtitle": "Nina Carducciは、彼女のポートフォリオサイトで彼女の作品を紹介している写真家です。",
+        "content": "私の役割は、サイトを最適化してアクセシビリティを向上させることでした。最適化のために、画像を変更し、コードを最小化しました。アクセシビリティのために、HTMLのセマンティクス、色の対比、属性などを変更しました。WaveやLighthouseなどのツールを使用することができました。"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "お問い合わせ",
+    "content": {
+      "mail": "メール :",
+      "links": "ネットワーク :"
+    }
+  }
+}

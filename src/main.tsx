@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Portfolio from './Portfolio.tsx'
 import './main.css'
+import './i18n'
 
 const theme = localStorage.getItem('theme')
 if (
@@ -17,6 +18,8 @@ if (
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Portfolio />
+    <React.Suspense fallback="loading">
+      <Portfolio />
+    </React.Suspense>
   </React.StrictMode>
 )
