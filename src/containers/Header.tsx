@@ -95,13 +95,14 @@ function Header({ setTheme }: HeaderProps): ReactNode {
         {open ? (
           <div className="md:hidden">
             <div className="ox-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {navAnchors.map((anchor) => (
+              {navAnchors.map((anchor, index) => (
                 <a
+                  key={index}
                   className="text-primary-light hover:text-black hover:bg-white px-3 py-2 font-medium font-body flex justify-end"
                   href={anchor.anchor}
                   onClick={handleLinkClick}
                 >
-                  {anchor.title}
+                  {t(anchor.title)}
                 </a>
               ))}
             </div>
