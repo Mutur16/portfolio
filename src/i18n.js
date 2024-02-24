@@ -8,8 +8,7 @@ i18n
   .use(LanguageDetector)
   .use(Backend)
   .init({
-    debug: true,
-    fallbackLng: 'en',
+    debug: false,
     interpolation: {
       escapeValue: false,
     },

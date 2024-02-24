@@ -27,9 +27,9 @@ const LanguageSelector = (): ReactNode => {
           aria-haspopup="true"
           aria-expanded="true"
         >
-          {i18n.language === 'en' && 'EN'}
-          {i18n.language === 'fr' && 'FR'}
-          {i18n.language === 'jp' && 'JP'}
+          {i18n.resolvedLanguage === 'en' && 'EN'}
+          {i18n.resolvedLanguage === 'fr' && 'FR'}
+          {i18n.resolvedLanguage === 'jp' && 'JP'}
           <svg
             className="-mr-1 ml-2 h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,9 @@ const LanguageSelector = (): ReactNode => {
                 key={lng}
                 onClick={() => handleLanguageChange(lng)}
                 className={`block py-2 text-sm w-full text-gray-700 dark:text-primary ${
-                  i18n.language === lng ? 'bg-gray-100 dark:bg-secondary w-full' : ''
+                  i18n.language === lng
+                    ? 'bg-gray-100 dark:bg-secondary w-full'
+                    : ''
                 } hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-secondary`}
                 role="menuitem"
               >

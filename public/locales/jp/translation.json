@@ -44,11 +44,11 @@
   "project": {
     "portfolio": {
       "title": "Portfolio",
-      "content": "React、TypeScript、およびTailwind CSSを使用した私のポートフォリオウェブサイトの作成。",
+      "content": "React、TypeScript、およびTailwindを使用した私のポートフォリオウェブサイトの作成。",
       "dialog": {
         "title": "Portfolio",
-        "subtitle": "このサイトでは、自己紹介と私の一部の作品を紹介することができます。",
-        "content": "私のポートフォリオはレスポンシブ対応しており、Reactで開発されました。 TypeScriptの練習を続けるため、ここで使用しました。また、このプロジェクトでTailwind CSSを初めて使用して、それに慣れることにしました。"
+        "subtitle": "このサイトでは、自己紹介と私のプロジェクトを紹介することができます。",
+        "content": "ポートフォリオはTypeScriptとReactで開発されました。また、このプロジェクトでTailwindを初めて使用して、それに慣れることにしました。"
       }
     },
     "argentbank": {
@@ -66,7 +66,7 @@
       "dialog": {
         "title": "Kasa [OpenClassroomsプロジェクト]",
         "subtitle": "カサは個人間でアパートを賃貸するためのWebプラットフォームです。",
-        "content": "このプロジェクトでは、Reactと再利用可能なコンポーネントを使用することができました。また、サイトがレスポンシブであり、統合がデザインのモックアップに従っていることを確認しました。"
+        "content": "このプロジェクトでは、Reactと再利用可能なコンポーネントを使用することができました。また、統合がデザインのモックアップに従っていることを確認しました。"
       }
     },
     "sophiebluel": {
@@ -84,7 +84,7 @@
       "dialog": {
         "title": "Ohmyfood [OpenClassroomsプロジェクト]",
         "subtitle": "Ohmyfoodは、高級レストランのメニューをリストアップし、後でメニューの予約を可能にするサイトです。",
-        "content": "私は、SASSのみを使用してモックアップの統合と望ましいアニメーションを完成させました。このサイトはレスポンシブであり、モバイルファーストのアプローチで開発されました。"
+        "content": "私は、SASSのみを使用してモックアップの統合と望ましいアニメーションを完成させました。モバイルファーストのアプローチで開発されました。"
       }
     },
     "booki": {
@@ -93,7 +93,7 @@
       "dialog": {
         "title": "Booki [OpenClassroomsプロジェクト]",
         "subtitle": "Bookiは旅行代理店で、そのサイトではユーザーが選択した都市で宿泊施設やアクティビティを見つけることができます。",
-        "content": "提供されたモックアップのHTMLとCSSの統合を担当しました。Bookiサイトはレスポンシブです。"
+        "content": "提供されたモックアップのHTMLとCSSの統合を担当しました。"
       }
     },
     "events": {

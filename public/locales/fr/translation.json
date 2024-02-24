@@ -44,11 +44,11 @@
   "project": {
     "portfolio": {
       "title": "Portfolio",
-      "content": "Création de mon site Portfolio avec React, TypeScript et Tailwind CSS.",
+      "content": "Création de mon site Portfolio avec React, TypeScript et Tailwind.",
       "dialog": {
         "title": "Portfolio",
         "subtitle": "Ce site permet de me présenter et de répertorier une partie de mon travail.",
-        "content": "Mon portfolio est responsive et a été développé en React. Afin de continuer à m'exercer à TypeScript, je l'ai utilisé ici. J'ai également décidé de me familiariser avec Tailwind CSS en l'utilisant pour la première fois dans ce projet."
+        "content": "Mon portfolio est responsive et a été développé en React et avec TypeScript. J'ai également décidé de me familiariser avec Tailwind en l'utilisant pour la première fois dans ce projet."
       }
     },
     "argentbank": {
@@ -84,7 +84,7 @@
       "dialog": {
         "title": "Ohmyfood [Projet OpenClassrooms]",
         "subtitle": "Ohmyfood est un site qui répertorie les menus de restaurants gastronomiques et qui permettra par la suite la réservation de son menu.",
-        "content": "J'ai réalisé l'intégration de la maquette ainsi que les animations qui étaient souhaitées avec SASS uniquement. Ce site est responsive et a été développé en mobile first."
+        "content": "J'ai réalisé l'intégration de la maquette ainsi que les animations qui étaient souhaitées avec SASS uniquement."
       }
     },
     "booki": {
@@ -93,7 +93,7 @@
       "dialog": {
         "title": "Booki [Projet OpenClassrooms]",
         "subtitle": "Booki est une agence de voyage et son site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-        "content": "Je me suis occupée de faire l'intégration en HTML et CSS de la maquette communiquée. Le site Booki est responsive."
+        "content": "Je me suis occupée de faire l'intégration en HTML et CSS de la maquette communiquée."
       }
     },
     "events": {
