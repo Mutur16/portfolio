@@ -22,7 +22,7 @@ const LanguageSelector = (): ReactNode => {
         <button
           type="button"
           onClick={() => setOpen(!open)}
-          className="inline-flex justify-center w-full rounded-full border-gray-300 dark:border-primary px-4 py-2 bg-white dark:bg-tertiary text-sm text-black dark:text-primary hover:bg-gray-50 dark:hover:bg-secondary font-body"
+          className="inline-flex justify-center w-full rounded-full border-gray-300 dark:border-primary px-4 py-2 bg-white dark:bg-tertiary text-sm text-black dark:text-primary hover:bg-gray-50 dark:hover:bg-secondary font-body transition-all duration-500"
           id="options-menu"
           aria-haspopup="true"
           aria-expanded="true"

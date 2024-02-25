@@ -42,6 +42,9 @@
     }
   },
   "project": {
+    "dialog": {
+      "close": "Close"
+    },
     "portfolio": {
       "title": "Portfolio",
       "content": "Creation of my Portfolio website using React, TypeScript, and Tailwind.",

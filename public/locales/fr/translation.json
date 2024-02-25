@@ -14,7 +14,7 @@
     "content": {
       "welcome": "Bonjour et bienvenue sur mon portfolio.",
       "introduction": "Je me présente, Alexandra Marti-Montessinos, développeuse front-end basée en région parisienne.",
-      "background": "J'ai travaillé dans divers domaines tels que l'esthétique et le tourisme. J'ai démarré mes expériences professionnelles au Japon en 2016 et suis rentrée en France en 2020. À cette période, j'ai souhaité tout en passant ma licence de japonais, prendre le temps de déterminer le domaine dans lequel j'aimerais vraiment travailler. J'ai commencé à apprendre par moi-même les bases du développement web puis j'ai continué sur une formation OpenClassroomss en 2023 pour me conforter dans la voie que j'avais choisie.",
+      "background": "J'ai travaillé dans divers domaines tels que l'esthétique et le tourisme. J'ai démarré mes expériences professionnelles au Japon en 2016 et suis rentrée en France en 2020. À cette période, j'ai souhaité tout en passant ma licence de japonais, prendre le temps de déterminer le domaine dans lequel j'aimerais vraiment travailler. J'ai commencé à apprendre par moi-même les bases du développement web puis j'ai continué sur une formation OpenClassrooms en 2023 pour me conforter dans la voie que j'avais choisie.",
       "portfolio": "Retrouvez sur ce portfolio certains projets sur lesquels j'ai travaillé jusqu'à maintenant."
     }
   },
@@ -42,6 +42,9 @@
     }
   },
   "project": {
+    "dialog": {
+      "close": "Fermer"
+    },
     "portfolio": {
       "title": "Portfolio",
       "content": "Création de mon site Portfolio avec React, TypeScript et Tailwind.",
@@ -75,7 +78,7 @@
       "dialog": {
         "title": "Portfolio de Sophie Bluel [Projet OpenClassrooms]",
         "subtitle": "Sophie Bluel est une architecte d'intérieur qui partage son travail sur son site portfolio.",
-        "content": "J'ai réalisé l'intégration de la maquette avec HTML et CSS. Afin que la cliente puisse mettre à jour elle-même ses travaux, j'ai utilisé JavaScript"
+        "content": "J'ai réalisé l'intégration de la maquette avec HTML et CSS. Afin que la cliente puisse mettre à jour elle-même ses travaux, j'ai utilisé JavaScript."
       }
     },
     "ohmyfood": {

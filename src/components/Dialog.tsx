@@ -33,7 +33,7 @@ export default function DialogProject({
       </DialogBody>
       <DialogFooter>
         <Button variant="gradient" color="gray" onClick={handleOpen}>
-          <span>Fermer</span>
+          <span>{t(`project.dialog.close`)}</span>
         </Button>
       </DialogFooter>
     </Dialog>
