@@ -25,8 +25,8 @@ export default withMT({
       fontSize: {
         'sm-body': '15px',
         'body': '18px',
-        'sm-h4': '22px',
-        'h4': '38px',
+        'sm-h3': '22px',
+        'h3': '38px',
         '2xl': '1.7rem',
         '3xl': '2.8rem',
         '4xl': '4rem',
