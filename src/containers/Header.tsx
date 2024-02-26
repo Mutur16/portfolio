@@ -53,14 +53,17 @@ function Header({ setTheme }: HeaderProps): ReactNode {
               amm
             </span>
             <div className="flex md:ml-4">
-              <button onClick={darkTheme} className="dark:hidden">
+              <button type="button" onClick={darkTheme} className="dark:hidden">
                 <FaMoon />
+                <span className="sr-only">Dark Mode</span>
               </button>
               <button
+                type="button"
                 onClick={lightTheme}
                 className="hidden dark:text-link dark:hover:text-white dark:flex"
               >
                 <FaSun />
+                <span className="sr-only">Light Mode</span>
               </button>
             </div>
             <LanguageSelector />
@@ -98,7 +101,7 @@ function Header({ setTheme }: HeaderProps): ReactNode {
               {navAnchors.map((anchor, index) => (
                 <a
                   key={index}
-                  className="text-primary-light hover:text-black hover:bg-white px-3 py-2 font-medium font-body flex justify-end"
+                  className="text-primary-light dark:text-primary px-3 py-2 font-medium font-body flex justify-end"
                   href={anchor.anchor}
                   onClick={handleLinkClick}
                 >

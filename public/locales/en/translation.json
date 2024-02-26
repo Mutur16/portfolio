@@ -1,5 +1,6 @@
 {
   "developer": "Front-End developer",
+  "profilePicture": "Illustration of Alexandra's portrait",
   "header": {
     "navbar": {
       "home": "Home",
@@ -42,6 +43,18 @@
     }
   },
   "project": {
+    "icons": {
+      "html": "HTML Icon",
+      "css": "CSS Icon",
+      "tailwind": "Tailwind Icon",
+      "sass": "SASS Icon",
+      "js": "JavaScript Icon",
+      "react": "React Icon",
+      "ts": "TypeScript Icon",
+      "debug": "Icon representing debugging",
+      "seo": "Icon representing SEO",
+      "accessibility": "Icon representing accessibility"
+    },    
     "dialog": {
       "close": "Close"
     },
@@ -51,7 +64,8 @@
       "dialog": {
         "title": "Portfolio",
         "subtitle": "This site allows me to present myself and showcase some of my work.",
-        "content": "My portfolio is responsive and was developed in React and by using TypeScript. I also decided to become familiar with Tailwind by using it for the first time in this project."
+        "content": "My portfolio is responsive and was developed in React and by using TypeScript. I also decided to become familiar with Tailwind by using it for the first time in this project.",
+        "imgAlt": "Website Preview: Portfolio"
       }
     },
     "argentbank": {
@@ -121,6 +135,7 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Get in touch",
+    "img": "Illustration of an envelope",
     "content": {
       "mail": "Send me a message at",
       "links": "My networks :"

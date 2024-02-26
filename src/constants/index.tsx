@@ -35,7 +35,7 @@ export const emptyDialog: ProjectDialogType = {
 
 export const projects: Array<ProjectType> = [
   {
-    icons: [React, TypeScript, Tailwind],
+    icons: [{img: React, alt: 'project.icons.react'}, {img: TypeScript, alt: 'project.icons.ts'}, {img: Tailwind, alt: 'project.icons.tailwind'}],
     name: 'portfolio',
     backgroundImage: Portfolio,
     dialog: {
@@ -45,7 +45,7 @@ export const projects: Array<ProjectType> = [
     },
   },
   {
-    icons: [React, TypeScript, SASS],
+    icons: [{img: React, alt: 'project.icons.react'}, {img: TypeScript, alt: 'project.icons.ts'}, {img: SASS, alt: 'project.icons.sass'}],
     name: 'argentbank',
     backgroundImage: ArgentBank,
     dialog: {
@@ -55,7 +55,7 @@ export const projects: Array<ProjectType> = [
     },
   },
   {
-    icons: [React, SASS],
+    icons: [{img: React, alt: 'project.icons.react'}, {img: SASS, alt: 'project.icons.sass'}],
     name: 'kasa',
     backgroundImage: Kasa,
     dialog: {
@@ -65,7 +65,7 @@ export const projects: Array<ProjectType> = [
     },
   },
   {
-    icons: [JS, CSS],
+    icons: [{img: JS, alt: 'project.icons.js'}, {img: CSS, alt: 'project.icons.css'}],
     name: 'sophiebluel',
     backgroundImage: SophieBluel,
     dialog: {
@@ -75,7 +75,7 @@ export const projects: Array<ProjectType> = [
     },
   },
   {
-    icons: [HTML, SASS],
+    icons: [{img: HTML, alt: 'project.icons.html'}, {img: SASS, alt: 'project.icons.sass'}],
     name: 'ohmyfood',
     backgroundImage: Ohmyfood,
     dialog: {
@@ -85,7 +85,7 @@ export const projects: Array<ProjectType> = [
     },
   },
   {
-    icons: [HTML, CSS],
+    icons: [{img: HTML, alt: 'project.icons.html'}, {img: CSS, alt: 'project.icons.css'}],
     name: 'booki',
     backgroundImage: Booki,
     dialog: {
@@ -95,7 +95,7 @@ export const projects: Array<ProjectType> = [
     },
   },
   {
-    icons: [Debug],
+    icons: [{img: Debug, alt: 'project.icons.debug'}],
     name: 'events',
     backgroundImage: Events,
     dialog: {
@@ -105,7 +105,7 @@ export const projects: Array<ProjectType> = [
     },
   },
   {
-    icons: [SEO, Accessibility],
+    icons: [{img: SEO, alt: 'project.icons.seo'}, {img: Accessibility, alt: 'project.icons.accessibility'}],
     name: 'ninacarducci',
     backgroundImage: NinaCarducci,
     dialog: {
@@ -117,10 +117,15 @@ export const projects: Array<ProjectType> = [
 ]
 
 export type ProjectType = {
-  icons: Array<string>
+  icons: Array<ProjectIcon>
   name: string
   backgroundImage: string
   dialog?: ProjectDialogType
+}
+
+type ProjectIcon = {
+  img: string
+  alt: string
 }
 
 export type ProjectDialogType = {

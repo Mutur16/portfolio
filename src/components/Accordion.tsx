@@ -44,7 +44,7 @@ export function DefaultAccordion(): ReactNode {
                 className="group hover:text-black dark:hover:text-white"
               >
                 {t('accordion.education.body.oc')}
-                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-tertiary-light dark:bg-white"></span>
+                <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-primary-light dark:bg-white"></span>
               </a>
             </li>
           </ul>

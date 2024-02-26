@@ -9,9 +9,8 @@ export default withMT({
         height: 'height',
       },
       colors: {
-        'primary-light': '#757575',
+        'primary-light': '#333',
         'secondary-light': '#f5f5f5',
-        'tertiary-light': '#333',
         'accordion-light': '#eaeaea',
         'primary': '#F5F5F5', //text
         'secondary': '#303030', //bg clair

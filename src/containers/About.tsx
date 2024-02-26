@@ -12,13 +12,13 @@ function About(): ReactNode {
     >
       <div className="max-w-screen-2xl flex flex-col lg:flex-row gap-10 mx-auto">
         <div className="lg:w-3/5 lg:pr-10 flex flex-col gap-3">
-          <h3 className="flex text-sm-body lg:text-body font-bold uppercase text-primary-light dark:text-primary gap-4">
+          <h2 className="flex text-sm-body lg:text-body font-bold uppercase text-primary-light dark:text-primary gap-4">
             <span className="block mt-3 w-5 h-0.5 lg:mt-3 lg:w-7 bg-primary-light dark:bg-primary"></span>
             {t('about.title')}
-          </h3>
-          <h4 className="text-sm-h4 lg:text-h4 text-tertiary-light dark:text-primary font-bold">
+          </h2>
+          <h3 className="text-sm-h3 lg:text-h3 text-primary-light dark:text-primary font-bold">
             {t('about.subtitle')}
-          </h4>
+          </h3>
           <span className="text-primary-light dark:text-primary text-sm-body lg:text-body">
             {t('about.content.welcome')}
             <hr className="border-none" />

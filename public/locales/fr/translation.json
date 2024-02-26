@@ -1,5 +1,6 @@
 {
   "developer": "Développeuse Front-End",
+  "profilePicture": "Illustration du portrait d'Alexandra",
   "header": {
     "navbar": {
       "home": "Home",
@@ -42,6 +43,18 @@
     }
   },
   "project": {
+    "icons" : {
+      "html": "Icône HTML",
+      "css": "Icône CSS",
+      "tailwind": "Icône Tailwind",
+      "sass": "Icône SASS",
+      "js": "Icône JavaScript",
+      "react": "Icône React",
+      "ts": "Icône TypeScript",
+      "debug": "Icône qui signifie débogage",
+      "seo": "Icône qui signifie SEO",
+      "accessibility": "Icône qui signifie accessibilité"
+    },
     "dialog": {
       "close": "Fermer"
     },
@@ -51,7 +64,8 @@
       "dialog": {
         "title": "Portfolio",
         "subtitle": "Ce site permet de me présenter et de répertorier une partie de mon travail.",
-        "content": "Mon portfolio est responsive et a été développé en React et avec TypeScript. J'ai également décidé de me familiariser avec Tailwind en l'utilisant pour la première fois dans ce projet."
+        "content": "Mon portfolio est responsive et a été développé en React et avec TypeScript. J'ai également décidé de me familiariser avec Tailwind en l'utilisant pour la première fois dans ce projet.",
+        "imgAlt": "Aperçu du site Portfolio"
       }
     },
     "argentbank": {
@@ -60,7 +74,8 @@
       "dialog": {
         "title": "ArgentBank [Projet OpenClassrooms]",
         "subtitle": "Argent Bank est une nouvelle banque en ligne.",
-        "content": "Je me suis occupée de la mise en place du tableau de bord des utilisateurs de la banque avec React et Redux. J'ai également utilisé TypeScript pour une meilleure documentation du code. J'ai aussi eu l'occasion d'écrire de la documentaion OpenAPI et de déterminer de nouveaux endpoints."
+        "content": "Je me suis occupée de la mise en place du tableau de bord des utilisateurs de la banque avec React et Redux. J'ai également utilisé TypeScript pour une meilleure documentation du code. J'ai aussi eu l'occasion d'écrire de la documentaion OpenAPI et de déterminer de nouveaux endpoints.",
+        "imgAlt": "Aperçu du site ArgentBank"
       }
     },
     "kasa": {
@@ -69,7 +84,8 @@
       "dialog": {
         "title": "Kasa [Projet OpenClassrooms]",
         "subtitle": "Kasa est une platforme web qui permet la location d'appartements entre particuliers.",
-        "content": "Sur ce projet, j'ai pu m'initier à React et aux composants réutilasables. Je me suis également assurée que le site était responsive et que l'intégration respectait bien la maquette."
+        "content": "Sur ce projet, j'ai pu m'initier à React et aux composants réutilasables. Je me suis également assurée que le site était responsive et que l'intégration respectait bien la maquette.",
+        "imgAlt": "Aperçu du site Kasa"
       }
     },
     "sophiebluel": {
@@ -78,7 +94,8 @@
       "dialog": {
         "title": "Portfolio de Sophie Bluel [Projet OpenClassrooms]",
         "subtitle": "Sophie Bluel est une architecte d'intérieur qui partage son travail sur son site portfolio.",
-        "content": "J'ai réalisé l'intégration de la maquette avec HTML et CSS. Afin que la cliente puisse mettre à jour elle-même ses travaux, j'ai utilisé JavaScript."
+        "content": "J'ai réalisé l'intégration de la maquette avec HTML et CSS. Afin que la cliente puisse mettre à jour elle-même ses travaux, j'ai utilisé JavaScript.",
+        "imgAlt": "Aperçu du site de Sophie Bluel"
       }
     },
     "ohmyfood": {
@@ -87,7 +104,8 @@
       "dialog": {
         "title": "Ohmyfood [Projet OpenClassrooms]",
         "subtitle": "Ohmyfood est un site qui répertorie les menus de restaurants gastronomiques et qui permettra par la suite la réservation de son menu.",
-        "content": "J'ai réalisé l'intégration de la maquette ainsi que les animations qui étaient souhaitées avec SASS uniquement."
+        "content": "J'ai réalisé l'intégration de la maquette ainsi que les animations qui étaient souhaitées avec SASS uniquement.",
+        "imgAlt": "Aperçu du site Ohmyfood"
       }
     },
     "booki": {
@@ -96,7 +114,8 @@
       "dialog": {
         "title": "Booki [Projet OpenClassrooms]",
         "subtitle": "Booki est une agence de voyage et son site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-        "content": "Je me suis occupée de faire l'intégration en HTML et CSS de la maquette communiquée."
+        "content": "Je me suis occupée de faire l'intégration en HTML et CSS de la maquette communiquée.",
+        "imgAlt": "Aperçu du site Booki"
       }
     },
     "events": {
@@ -105,7 +124,8 @@
       "dialog": {
         "title": "724 Events [Projet OpenClassrooms]",
         "subtitle": "724 Events est une agence d'événementiel possédant un site vitrine.",
-        "content": "Le premier développeur à avoir travaillé sur le projet a dû abandonner le projet, de ce fait quelques bugs étaient présents. Mon rôle a été de corriger les bugs majeurs. J'ai également corrigé des bugs mineurs qui rendaient l'expérience utilisateur moins agréable. J'ai pu mettre en place des tests unitaires et en corriger certains sur ce projet."
+        "content": "Le premier développeur à avoir travaillé sur le projet a dû abandonner le projet, de ce fait quelques bugs étaient présents. Mon rôle a été de corriger les bugs majeurs. J'ai également corrigé des bugs mineurs qui rendaient l'expérience utilisateur moins agréable. J'ai pu mettre en place des tests unitaires et en corriger certains sur ce projet.",
+        "imgAlt": "Aperçu du site 724 Events"
       }
     },
     "ninacarducci": {
@@ -114,13 +134,15 @@
       "dialog": {
         "title": "Portfolio de Nina Carducci [Projet OpenClassrooms]",
         "subtitle": "Nina Carducci est une photographe qui partage son travail sur son site portfolio.",
-        "content": "Mon rôle a été d'optimiser le site et de le rendre plus accessible. Pour l'optimisation, j'ai notamment modifié les images et minifié le code. Pour l'accessibilité, j'ai entre autre fait des modifications sur la sémantique HTML, le contraste des couleurs, les attributs. J'ai pu m'aider des outils comme Wave ou Lighthouse."
+        "content": "Mon rôle a été d'optimiser le site et de le rendre plus accessible. Pour l'optimisation, j'ai notamment modifié les images et minifié le code. Pour l'accessibilité, j'ai entre autre fait des modifications sur la sémantique HTML, le contraste des couleurs, les attributs. J'ai pu m'aider des outils comme Wave ou Lighthouse.",
+        "imgAlt": "Aperçu du site de Nina Carducci"
       }
     }
   },
   "contact": {
     "title": "Contact",
     "subtitle": "Vous souhaitez me contacter ?",
+    "img": "Illustration d'une enveloppe",
     "content": {
       "mail": "Envoyez-moi un message à",
       "links": "Mes réseaux :"

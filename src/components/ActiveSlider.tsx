@@ -68,12 +68,17 @@ const ActiveSlider = () => {
               <div className="relative flex flex-col gap-3">
                 <div className="flex flex-row gap-2">
                   {item.icons.map((icon, index) => (
-                    <img key={index} className="w-[32px] h-[32px]" src={icon} />
+                    <img
+                      key={index}
+                      className="w-[32px] h-[32px]"
+                      src={icon.img}
+                      alt={t(icon.alt)}
+                    />
                   ))}
                 </div>
-                <h1 className="text-xl lg:text-2xl">
+                <h3 className="text-xl lg:text-2xl">
                   {t(`project.${item.name}.title`)}
-                </h1>
+                </h3>
                 <p className="lg:text-[18px]">
                   {t(`project.${item.name}.content`)}
                 </p>
