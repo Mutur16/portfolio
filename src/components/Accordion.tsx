@@ -61,31 +61,31 @@ export function DefaultAccordion(): ReactNode {
           <ul className="flex flex-col gap-3 text-sm-body md:text-body">
             <li className="flex">
               <span className="w-2/4 flex items-center gap-2">
-                <img src={JS} className="w-[30px] h-[30px]" />
+                <img src={JS} alt={t('project.icons.js')} className="w-[30px] h-[30px]" />
                 JavaScript
               </span>
               <span className="flex items-center gap-2">
-                <img src={CSS} className="w-[30px] h-[30px]" />
+                <img src={CSS} alt={t('project.icons.css')} className="w-[30px] h-[30px]" />
                 CSS
               </span>
             </li>
             <li className="flex">
               <span className="w-2/4 flex items-center gap-2">
-                <img src={TS} className="w-[30px] h-[30px]" />
+                <img src={TS} alt={t('project.icons.ts')} className="w-[30px] h-[30px]" />
                 TypeScript
               </span>
               <span className="flex items-center gap-2">
-                <img src={SASS} className="w-[30px] h-[30px]" />
+                <img src={SASS} alt={t('project.icons.sass')} className="w-[30px] h-[30px]" />
                 SASS
               </span>
             </li>
             <li className="flex">
               <span className="w-2/4 flex items-center gap-2">
-                <img src={ReactNative} className="w-[30px] h-[30px]" />
+                <img src={ReactNative} alt={t('project.icons.react')} className="w-[30px] h-[30px]" />
                 React
               </span>
               <span className="flex items-center gap-2">
-                <img src={Tailwind} className="w-[30px] h-[30px]" />
+                <img src={Tailwind} alt={t('project.icons.tailwind')} className="w-[30px] h-[30px]" />
                 Tailwind
               </span>
             </li>
