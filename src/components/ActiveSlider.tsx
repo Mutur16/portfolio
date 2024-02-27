@@ -41,16 +41,24 @@ const ActiveSlider = () => {
             slidesPerView: 1,
             spaceBetween: 15,
           },
+          500: {
+            slidesPerView: 1.5,
+            spaceBetween: 15,
+          },
           800: {
             slidesPerView: 2,
             spaceBetween: 15,
           },
-          1200: {
-            slidesPerView: 3,
+          1020: {
+            slidesPerView: 2.5,
+            spaceBetween: 15,
+          },
+          1380: {
+            slidesPerView: 3.25,
             spaceBetween: 15,
           },
         }}
-        freeMode={true}
+        freeMode={false}
         pagination={{
           clickable: true,
         }}
