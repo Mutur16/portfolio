@@ -5,7 +5,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/free-mode'
 
-import { FreeMode, Pagination } from 'swiper/modules'
+import { FreeMode, Mousewheel, Pagination } from 'swiper/modules'
 
 import { RxArrowTopRight } from 'react-icons/rx'
 import { ProjectType, emptyDialog, projects } from '../constants'
@@ -62,7 +62,8 @@ const ActiveSlider = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        mousewheel={true}
+        modules={[FreeMode, Mousewheel, Pagination]}
         className="max-w-[80%] md:max-w-[100%]"
       >
         {projects.map((item) => (
