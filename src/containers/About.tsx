@@ -20,11 +20,8 @@ function About(): ReactNode {
             {t('about.subtitle')}
           </h3>
           <span className="text-primary-light dark:text-primary text-sm-body lg:text-body">
-            {t('about.content.welcome')}
-            <hr className="border-none" />
-            {t('about.content.introduction')} <hr className="border-none" />
             {t('about.content.background')}
-            <hr className="border-none" />
+            <hr className="border-8 border-transparent" />
             {t('about.content.portfolio')}
           </span>
         </div>

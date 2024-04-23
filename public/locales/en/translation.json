@@ -13,9 +13,7 @@
     "title": "About",
     "subtitle": "Front-End developer based in Paris, France",
     "content": {
-      "welcome": "Welcome to my portfolio.",
-      "introduction": "I am Alexandra Marti-Montessinos, a front-end developer currently living in the Paris metropolitan region.",
-      "background": "I have worked in various fields such as aesthetics and tourism. I started my professional experiences in Japan in 2016 and returned to France in 2020. From 2020, while pursuing my Japanese degree, I took time to determine the field in which I would truly like to work. I began teaching myself the basics of web development and then continued with a web development course in 2023 and graduated in 2024.",
+      "background": "In 2020, I started to explore web development by myself. In 2023-2024, I consolidated my skills with OpenClassrooms' “Web Integrator” course. Prior to this reconversion, I gained diversified experience in fields such as aesthetics and tourism in Japan from 2016 to 2020.",
       "portfolio": "On this portfolio you can find some projects on which I have worked up to now."
     }
   },
@@ -23,8 +21,9 @@
     "education": {
       "header": "Education",
       "body": {
-        "licence": "Bachelor of Japanese",
-        "oc": "Web integrator, OC"
+        "oc": "Web integrator, OC",
+        "licence": "BA of Japanese studies",
+        "bac": "BTEC of Esthetic"
       }
     },
     "skills": {
@@ -36,9 +35,9 @@
         "french": "French",
         "french.level": "Native language",
         "english": "English",
-        "english.level": "Advanced",
+        "english.level": "Advanced (C1)",
         "japanese": "Japanese",
-        "japanese.level": "Intermediate"
+        "japanese.level": "Intermediate (B1)"
       }
     }
   },
@@ -57,6 +56,16 @@
     },    
     "dialog": {
       "close": "Close"
+    },
+    "pizzeria": {
+      "title": "Pizzeria",
+      "content": "Pizzeria website created with React and TypeScript.",
+      "dialog": {
+        "title": "Pizzeria",
+        "subtitle": "This site allows the pizzeria to indicate its opening hours, contact details and menu.",
+        "content": "I created this site from scratch to make it easy for customers to navigate to the information that interests them. This project enabled me to consolidate my knowledge of React and TypeScript.",
+        "imgAlt": "Website Preview: Pizzeria"
+      }
     },
     "portfolio": {
       "title": "Portfolio",

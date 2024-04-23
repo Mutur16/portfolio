@@ -32,11 +32,7 @@ export function DefaultAccordion(): ReactNode {
         </AccordionHeader>
         <AccordionBody className="bg-white dark:bg-accordion dark:text-primary font-body p-8 transition-all duration-500">
           <ul className="flex flex-col gap-3 text-sm-body md:text-body">
-            <li className="flex">
-              <span className="w-1/3">2022</span>
-              <span>{t('accordion.education.body.licence')}</span>
-            </li>
-            <li className="flex">
+          <li className="flex">
               <span className="w-1/3">2024</span>
               <a
                 href="https://openclassrooms.com/fr/paths/900-integrateur-web#projects"
@@ -46,6 +42,14 @@ export function DefaultAccordion(): ReactNode {
                 {t('accordion.education.body.oc')}
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-700 h-0.5 bg-primary-light dark:bg-white"></span>
               </a>
+            </li>
+            <li className="flex">
+              <span className="w-1/3">2022</span>
+              <span>{t('accordion.education.body.licence')}</span>
+            </li>
+            <li className="flex">
+              <span className="w-1/3">2014</span>
+              <span>{t('accordion.education.body.bac')}</span>
             </li>
           </ul>
         </AccordionBody>

@@ -6,7 +6,7 @@ import LanguageSelector from '../components/LanguageSelector'
 const navAnchors = [
   {
     title: 'header.navbar.home',
-    anchor: '/',
+    anchor: '#home',
   },
   {
     title: 'header.navbar.about',

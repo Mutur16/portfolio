@@ -13,9 +13,7 @@
     "title": "À propos",
     "subtitle": "Développeuse Front-End basée en région parisienne",
     "content": {
-      "welcome": "Bonjour et bienvenue sur mon portfolio.",
-      "introduction": "Je me présente, Alexandra Marti-Montessinos, développeuse front-end basée en région parisienne.",
-      "background": "J'ai travaillé dans divers domaines tels que l'esthétique et le tourisme. J'ai démarré mes expériences professionnelles au Japon en 2016 et suis rentrée en France en 2020. À cette période, j'ai souhaité tout en passant ma licence de japonais, prendre le temps de déterminer le domaine dans lequel j'aimerais vraiment travailler. J'ai commencé à apprendre par moi-même les bases du développement web puis j'ai continué sur une formation OpenClassrooms en 2023 pour me conforter dans la voie que j'avais choisie.",
+      "background": "Pendant mes études de japonais en France (2020-2022), j'ai exploré le développement web de façon autonome. En 2023-2024, j'ai consolidé mes compétences avec la formation “Intégrateur web” d'OpenClassrooms. Avant cette reconversion, j'ai acquis une expérience diversifiée dans des domaines tels que l'esthétique et le tourisme au Japon de 2016 à 2020.",
       "portfolio": "Retrouvez sur ce portfolio certains projets sur lesquels j'ai travaillé jusqu'à maintenant."
     }
   },
@@ -23,8 +21,9 @@
     "education": {
       "header": "Formations",
       "body": {
-        "licence": "Licence LLCE Japonais",
-        "oc": "Intégrateur web, OC"
+        "oc": "Intégrateur web, OC",
+        "licence": "Licence LLCE - Japonais",
+        "bac": "BacPro - Esthétique"
       }
     },
     "skills": {
@@ -36,14 +35,14 @@
         "french": "Français",
         "french.level": "Langue natale",
         "english": "Anglais",
-        "english.level": "Avancé",
+        "english.level": "Avancé (C1)",
         "japanese": "Japonais",
-        "japanese.level": "Intermédiaire"
+        "japanese.level": "Intermédiaire (B1)"
       }
     }
   },
   "project": {
-    "icons" : {
+    "icons": {
       "html": "Icône HTML",
       "css": "Icône CSS",
       "tailwind": "Icône Tailwind",
@@ -57,6 +56,16 @@
     },
     "dialog": {
       "close": "Fermer"
+    },
+    "pizzeria": {
+      "title": "Pizzeria",
+      "content": "Création du site vitrine d'une pizzeria avec React et TypeScript.",
+      "dialog": {
+        "title": "Pizzeria",
+        "subtitle": "Ce site permet à la pizzeria d'indiquer ses horaires d'ouverture, son contact ainsi que son menu.",
+        "content": "J'ai créé ce site de A à Z afin de permettre aux clients de naviguer facilement vers les informations qui les intéressent. Avec ce projet j'ai pu consolider mes acquis sur React et TypeScript.",
+        "imgAlt": "Aperçu du site de la pizzeria"
+      }
     },
     "portfolio": {
       "title": "Portfolio",

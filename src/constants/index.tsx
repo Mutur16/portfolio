@@ -17,6 +17,7 @@ import Kasa from '../assets/bg-kasa.webp'
 import SophieBluel from '../assets/bg-sophiebluel.webp'
 import Ohmyfood from '../assets/bg-ohmyfood.webp'
 import NinaCarducci from '../assets/bg-ninacarducci.webp'
+import Pizzeria from '../assets/bg-pizzeria.jpg'
 
 import PortfolioDialog from '../assets/dialog/portfolio.png'
 import BookiDialog from '../assets/dialog/booki.png'
@@ -26,6 +27,7 @@ import KasaDialog from '../assets/dialog/kasa.png'
 import SophieBluelDialog from '../assets/dialog/sophiebluel.png'
 import OhmyfoodDialog from '../assets/dialog/ohmyfood.png'
 import NinaCarducciDialog from '../assets/dialog/ninacarducci.png'
+import PizzeriaDialog from '../assets/dialog/pizzeria.png'
 
 export const emptyDialog: ProjectDialogType = {
   name: '',
@@ -34,6 +36,16 @@ export const emptyDialog: ProjectDialogType = {
 }
 
 export const projects: Array<ProjectType> = [
+  {
+    icons: [{img: React, alt: 'project.icons.react'}, {img: TypeScript, alt: 'project.icons.ts'}, {img: CSS, alt: 'project.icons.css'}],
+    name: 'pizzeria',
+    backgroundImage: Pizzeria,
+    dialog: {
+      name: "pizzeria.dialog",
+      github: 'https://github.com/Mutur16/pizzeria',
+      img: PizzeriaDialog,
+    },
+  },
   {
     icons: [{img: React, alt: 'project.icons.react'}, {img: TypeScript, alt: 'project.icons.ts'}, {img: Tailwind, alt: 'project.icons.tailwind'}],
     name: 'portfolio',
