@@ -32,6 +32,7 @@ import PizzeriaDialog from '../assets/dialog/pizzeria.png'
 export const emptyDialog: ProjectDialogType = {
   name: '',
   github: '',
+  site: '',
   img: '',
 }
 
@@ -43,6 +44,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "pizzeria.dialog",
       github: 'https://github.com/Mutur16/pizzeria',
+      site: 'https://pizzeria-gamma.vercel.app/',
       img: PizzeriaDialog,
     },
   },
@@ -53,6 +55,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "portfolio.dialog",
       github: 'https://github.com/Mutur16/portfolio',
+      site: 'https://alexandramm.dev/',
       img: PortfolioDialog,
     },
   },
@@ -63,6 +66,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "argentbank.dialog",
       github: 'https://github.com/Mutur16/oc-project11',
+      site: '',
       img: ArgentBankDialog,
     },
   },
@@ -73,6 +77,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "kasa.dialog",
       github: 'https://github.com/Mutur16/oc-project8',
+      site: 'https://kasa-zeta-six.vercel.app/',
       img: KasaDialog,
     },
   },
@@ -83,6 +88,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "sophiebluel.dialog",
       github: 'https://github.com/Mutur16/oc-project6',
+      site: '',
       img: SophieBluelDialog,
     },
   },
@@ -93,6 +99,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "ohmyfood.dialog",
       github: 'https://github.com/Mutur16/oc-project4',
+      site: 'https://ohmyfood-nine.vercel.app/',
       img: OhmyfoodDialog,
     },
   },
@@ -103,6 +110,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "booki.dialog",
       github: 'https://github.com/Mutur16/oc-projet3',
+      site: 'https://booki-flame.vercel.app/',
       img: BookiDialog,
     },
   },
@@ -113,6 +121,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "events.dialog",
       github: 'https://github.com/Mutur16/oc-project10',
+      site: 'https://724events-sooty.vercel.app/',
       img: EventsDialog,
     },
   },
@@ -123,6 +132,7 @@ export const projects: Array<ProjectType> = [
     dialog: {
       name: "ninacarducci.dialog",
       github: 'https://github.com/Mutur16/oc-project9',
+      site: 'https://nina-carducci-rho.vercel.app/',
       img: NinaCarducciDialog,
     },
   },
@@ -143,5 +153,6 @@ type ProjectIcon = {
 export type ProjectDialogType = {
   name: string
   github: string
+  site: string
   img: string
 }

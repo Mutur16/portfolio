@@ -16,6 +16,10 @@ export default function DialogProject({
 }: DialogProjectType) {
   const { t } = useTranslation()
 
+  const handleRedirect = () => {
+    window.open(data?.site, '_blank')
+  }
+
   return (
     <Dialog open={open} handler={handleOpen} className="p-5 dark:bg-tertiary">
       <DialogHeader className="flex justify-between text-lg md:text-body font-body text-primary-light dark:text-primary">
@@ -30,12 +34,17 @@ export default function DialogProject({
       <DialogBody className="flex flex-col font-body text-primary-light dark:text-primary h-[20rem] md:h-auto overflow-scroll md:overflow-hidden">
         <p>{t(`project.${data.name}.subtitle`)}</p>
         <p>{t(`project.${data.name}.content`)}</p>
-        <img src={data?.img} alt={t(`project.${data.name}.imgAlt`)}/>
+        <img src={data?.img} alt={t(`project.${data.name}.imgAlt`)} />
       </DialogBody>
-      <DialogFooter>
+      <DialogFooter className="flex flex-row-reverse justify-between">
         <Button variant="gradient" color="gray" onClick={handleOpen}>
           <span>{t(`project.dialog.close`)}</span>
         </Button>
+        {data?.site ? (
+          <Button variant="gradient" color="gray" onClick={handleRedirect}>
+            <span>{t(`project.dialog.visit`)}</span>
+          </Button>
+        ) : null}
       </DialogFooter>
     </Dialog>
   )

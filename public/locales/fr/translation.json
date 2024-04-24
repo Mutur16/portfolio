@@ -22,8 +22,8 @@
       "header": "Formations",
       "body": {
         "oc": "Intégrateur web, OC",
-        "licence": "Licence LLCE - Japonais",
-        "bac": "BacPro - Esthétique"
+        "licence": "Licence LLCE Japonais",
+        "bac": "BacPro Esthétique"
       }
     },
     "skills": {
@@ -55,6 +55,7 @@
       "accessibility": "Icône qui signifie accessibilité"
     },
     "dialog": {
+      "visit": "Voir",
       "close": "Fermer"
     },
     "pizzeria": {

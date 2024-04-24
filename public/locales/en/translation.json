@@ -55,6 +55,7 @@
       "accessibility": "Icon representing accessibility"
     },    
     "dialog": {
+      "visit": "Visit",
       "close": "Close"
     },
     "pizzeria": {
