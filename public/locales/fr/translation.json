@@ -157,5 +157,47 @@
       "mail": "Envoyez-moi un message à",
       "links": "Mes réseaux :"
     }
+  },
+  "wix": {
+    "description": "Que vous soyez une petite entreprise, un entrepreneur indépendant ou un artiste cherchant à se faire connaître, j'ai la solution parfaite pour vous. Grâce à Wix, je vous offre des sites web professionnels, personnalisés et faciles à gérer, le tout à un prix accessible.",
+    "brochure": "Télécharger la brochure",
+    "brochureLink": "https://share.mealtime.io/api/shares/brochureFR/files/b8d58ad5-01e8-4297-a96f-0d7ea22b60fc?download=false",
+    "portfolio": {
+      "yoga": {
+        "title": "Cours de Yoga",
+        "name": "Lorem Yoga"
+      },
+      "cafe": {
+        "title": "Café",
+        "name": "Café Lorem"
+      },
+      "hair": {
+        "title": "Salon de coiffure",
+        "name": "Salon Lorem"
+      },
+      "button": "Voir"
+    },
+    "priceTitle": "Tarifs",
+    "price": {
+      "simple": {
+        "name": "Simple",
+        "one": "Design propre",
+        "two": "Une page",
+        "three": "Fonctionnalités simples"
+      },
+      "intermediate": {
+        "name": "Intermédiaire",
+        "one": "Design plus élaboré",
+        "two": "Deux à quatre pages",
+        "three": "Fonctionnalités plus avancées",
+        "four": "Optimisation SEO de base"
+      },
+      "advanced": {
+        "request": "sur devis",
+        "name": "Avancé",
+        "one": "Pages supplémentaires",
+        "two": "Intégrations plus complexe"
+      }
+    }
   }
 }

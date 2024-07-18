@@ -157,5 +157,47 @@
       "mail": "メール :",
       "links": "ネットワーク :"
     }
+  },
+  "wix": {
+    "description": "あなたが小規模なビジネス、フリーランスの起業家、または注目を集めたいアーティストであっても、私には完璧なソリューションがあります。Wixを使用して、プロフェッショナルでカスタマイズされた管理しやすいウェブサイトを手頃な価格で提供します。",
+    "brochure": "パンフレットをダウンロードする",
+    "brochureLink": "https://share.mealtime.io/api/shares/brochureEN/files/028a7aad-5af9-490f-99c6-5d56aa6d8ea9?download=false",
+    "portfolio": {
+      "yoga": {
+        "title": "ヨガクラス",
+        "name": "ローレムヨガ"
+      },
+      "cafe": {
+        "title": "カフェ",
+        "name": "ローレムカフェ"
+      },
+      "hair": {
+        "title": "ヘアサロン",
+        "name": "ローレムサロン"
+      },
+      "button": "見る"
+    },
+    "priceTitle": "料金",
+    "price": {
+      "simple": {
+        "name": "シンプル",
+        "one": "クリーンなデザイン",
+        "two": "1ページ",
+        "three": "シンプルな機能"
+      },
+      "intermediate": {
+        "name": "中級",
+        "one": "より洗練されたデザイン",
+        "two": "2〜4ページ",
+        "three": "より高度な機能",
+        "four": "基本的なSEO最適化"
+      },
+      "advanced": {
+        "request": "見積もり",
+        "name": "上級",
+        "one": "追加のページ",
+        "two": "より複雑な統合"
+      }
+    }
   }
 }

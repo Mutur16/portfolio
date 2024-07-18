@@ -150,5 +150,48 @@
       "mail": "Send me a message at",
       "links": "My networks :"
     }
+  },
+  "wix": {
+    "description": "Whether you are a small business, a freelance entrepreneur, or an artist looking to get noticed, I have the perfect solution for you. With Wix, I offer you professional, customized, and easy-to-manage websites, all at an affordable price.",
+    "brochure": "Download the brochure",
+    "brochureLink": "https://share.mealtime.io/api/shares/brochureEN/files/028a7aad-5af9-490f-99c6-5d56aa6d8ea9?download=false",
+    "portfolio": {
+      "yoga": {
+        "title": "Yoga Classes",
+        "name": "Lorem Yoga"
+      },
+      "cafe": {
+        "title": "Cafe",
+        "name": "Lorem Cafe"
+      },
+      "hair": {
+        "title": "Hair Salon",
+        "name": "Lorem Salon"
+      },
+      "button": "View"
+    },
+    "priceTitle": "Pricing",
+    "price": {
+      "simple": {
+        "name": "Simple",
+        "one": "Clean design",
+        "two": "One page",
+        "three": "Simple features"
+      },
+      "intermediate": {
+        "name": "Intermediate",
+        "one": "More elaborate design",
+        "two": "Two to four pages",
+        "three": "More advanced features",
+        "four": "Basic SEO optimization"
+      },
+      "advanced": {
+        "request": "Upon request",
+        "name": "Advanced",
+        "one": "Additional pages",
+        "two": "More complex integrations"
+      }
+    }
   }
+
 }

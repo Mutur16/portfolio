@@ -20,7 +20,7 @@ function Portfolio() {
   return (
     <>
       <Header setTheme={setTheme} />
-      <div className="flex flex-col xl:flex-row h-screen px-4 overflow-hidden dark:bg-tertiary transition-all duration-500 z-0 scroll-smooth">
+      <div className="flex flex-col xl:flex-row h-screen px-4 overflow-hidden dark:bg-tertiary transition-all duration-500 z-0 scroll-smooth" id="home">
         <div className="flex flex-1 items-center justify-center xl:justify-end img-animation ">
           <img
             className="xl:w-2/4 sm:w-1/3 w-2/3 rounded-full border-4 md:border-8 border-primary-light dark:border-link mt-20 xl:mt-0 xl:mr-32 -rotate-3 dark:bg-secondary"
@@ -28,15 +28,15 @@ function Portfolio() {
             alt={t('profilePicture')}
           />
         </div>
-        <div id="home" className="flex flex-1 flex-col items-center xl:items-start justify-start xl:justify-center gap-5 xl:gap-10 text-animation">
+        <div className="flex flex-1 flex-col items-center xl:items-start justify-start xl:justify-center gap-5 xl:gap-10 text-animation">
           <div className="text-center xl:text-start">
             <h1 className="2xl:text-4xl md:text-3xl text-2xl text-primary-light dark:text-link uppercase font-name font-bold ">
               Alexandra <hr className="border-none" /> Marti-Montessinos
             </h1>
           </div>
-          <p className="font-body font-semibold text-primary-light dark:text-white bg-secondary-light dark:bg-secondary p-5 rounded-lg transition-all duration-500">
+          <a href='https://www.malt.fr/profile/alexandramartimontessinos' target="_blank" className="cursor-pointer font-body font-semibold text-primary-light dark:text-white bg-secondary-light hover:bg-secondary hover:text-white dark:hover:bg-secondary-light dark:hover:text-primary-light dark:bg-secondary p-5 rounded-lg transition-all duration-500">
             {t('developer')}
-          </p>
+          </a>
         </div>
       </div>
       <About />

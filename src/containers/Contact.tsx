@@ -13,7 +13,7 @@ function Contact(): ReactNode {
       className="bg-secondary-light dark:bg-secondary py-11 md:py-20 px-8 align-center font-body transition-all duration-500"
     >
       <div className="max-w-screen-2xl flex flex-col lg:flex-row lg:gap-10 mx-auto gap-2">
-        <div className="lg:w-2/3 flex flex-col gap-3">
+        <div className="lg:w-2/3 flex flex-col gap-6">
           <h2 className="flex text-sm-body lg:text-body font-bold uppercase text-primary-light dark:text-primary gap-4">
             <span className="block mt-3 w-5 h-0.5 lg:mt-3 lg:w-7 bg-primary-light dark:bg-primary"></span>
             {t('contact.title')}
@@ -39,8 +39,8 @@ function Contact(): ReactNode {
               {t('contact.content.links')}
             </p>
             <a href="https://github.com/Mutur16" target="_blank">
-              <IconButton className="rounded-full bg-tertiary">
-                <i className="fab fa-github text-lg" />
+              <IconButton className="rounded-full bg-tertiary dark:bg-secondary-light">
+                <i className="fab fa-github text-xl dark:text-primary-light" />
                 <span className="sr-only">Github link</span>
               </IconButton>
             </a>
@@ -48,9 +48,18 @@ function Contact(): ReactNode {
               href="https://www.linkedin.com/in/alexandra-marti-montessinos-469a9a19b/"
               target="_blank"
             >
-              <IconButton className="rounded-full bg-tertiary">
-                <i className="fab fa-linkedin text-lg" />
+              <IconButton className="rounded-full bg-tertiary dark:bg-secondary-light">
+                <i className="fab fa-linkedin text-xl dark:text-primary-light" />
                 <span className="sr-only">Linkedin link</span>
+              </IconButton>
+            </a>
+            <a
+              href="https://www.malt.fr/profile/alexandramartimontessinos"
+              target="_blank"
+            >
+              <IconButton className="rounded-full bg-tertiary dark:bg-secondary-light">
+                <p className='dark:text-primary-light font-bold'>Malt</p>
+                <span className="sr-only">Malt link</span>
               </IconButton>
             </a>
           </div>

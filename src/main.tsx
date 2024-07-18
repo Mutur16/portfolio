@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Portfolio from './Portfolio.tsx'
 import './main.css'
 import './i18n'
+import Wix from './Wix.tsx'
 
 const theme = localStorage.getItem('theme')
 if (
@@ -16,10 +18,21 @@ if (
   localStorage.setItem('theme', 'light')
 }
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Portfolio />,
+  },
+  {
+    path: '/wix',
+    element: <Wix />,
+  },
+])
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <React.Suspense fallback="loading">
-      <Portfolio />
+      <RouterProvider router={router} />
     </React.Suspense>
   </React.StrictMode>
 )

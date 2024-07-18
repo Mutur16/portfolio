@@ -1,4 +1,5 @@
 import { ReactNode, useState } from 'react'
+import { HashLink } from 'react-router-hash-link'
 import { useTranslation } from 'react-i18next'
 import { FaBars, FaMoon, FaSun, FaTimes } from 'react-icons/fa'
 import LanguageSelector from '../components/LanguageSelector'
@@ -6,15 +7,19 @@ import LanguageSelector from '../components/LanguageSelector'
 const navAnchors = [
   {
     title: 'header.navbar.home',
-    anchor: '#home',
+    anchor: '/#home',
   },
   {
     title: 'header.navbar.about',
-    anchor: '#about',
+    anchor: '/#about',
   },
   {
     title: 'header.navbar.portfolio',
-    anchor: '#portfolio',
+    anchor: '/#portfolio',
+  },
+  {
+    title: 'WIX',
+    anchor: `/wix#wix`,
   },
   {
     title: 'header.navbar.contact',
@@ -72,13 +77,14 @@ function Header({ setTheme }: HeaderProps): ReactNode {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navAnchors.map((anchor, index) => (
-                <a
+                <HashLink
                   key={index}
                   className="text-primary-light dark:text-link transition-all duration-300 hover:text-black dark:hover:text-white px-2 text-lg font-body"
-                  href={anchor.anchor}
+                  smooth
+                  to={anchor.anchor}
                 >
                   {t(anchor.title)}
-                </a>
+                </HashLink>
               ))}
             </div>
           </div>
