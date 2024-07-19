@@ -19,7 +19,7 @@ const navAnchors = [
   },
   {
     title: 'WIX',
-    anchor: `/wix#wix`,
+    anchor: `/wix`,
   },
   {
     title: 'header.navbar.contact',

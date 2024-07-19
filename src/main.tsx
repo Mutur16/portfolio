@@ -5,6 +5,7 @@ import Portfolio from './Portfolio.tsx'
 import './main.css'
 import './i18n'
 import Wix from './Wix.tsx'
+import Root from './Root'
 
 const theme = localStorage.getItem('theme')
 if (
@@ -21,11 +22,17 @@ if (
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Portfolio />,
-  },
-  {
-    path: '/wix',
-    element: <Wix />,
+    element: <Root />,
+    children: [
+      {
+        path: '/',
+        element: <Portfolio />,
+      },
+      {
+        path: '/wix',
+        element: <Wix />,
+      },
+    ],
   },
 ])
 
