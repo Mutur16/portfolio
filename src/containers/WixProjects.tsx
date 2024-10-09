@@ -3,7 +3,7 @@ import { WixCard } from '../components/WixCard'
 
 import yoga from '../assets/wix/yoga.webp'
 import cafe from '../assets/wix/cafe.webp'
-import hairSalon from '../assets/wix/hair.png'
+import wachaya from '../assets/wix/wachaya.png'
 
 const wixDetails: WixProjectType[] = [
   {
@@ -19,10 +19,10 @@ const wixDetails: WixProjectType[] = [
     site: 'https://alexandrammdev.wixsite.com/lorem-cafe',
   },
   {
-    image: hairSalon,
-    title: 'wix.portfolio.hair.title',
-    name: 'wix.portfolio.hair.name',
-    site: 'https://alexandrammdev.wixsite.com/coiffure-lorem',
+    image: wachaya,
+    title: 'wix.portfolio.wachaya.title',
+    name: 'wix.portfolio.wachaya.name',
+    site: 'https://wachaya.com/',
   },
 ]
 

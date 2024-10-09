@@ -171,9 +171,9 @@
         "title": "Café",
         "name": "Café Lorem"
       },
-      "hair": {
-        "title": "Salon de coiffure",
-        "name": "Salon Lorem"
+      "wachaya": {
+        "title": "Salon de beauté",
+        "name": "Wachaya"
       },
       "button": "Voir"
     },
